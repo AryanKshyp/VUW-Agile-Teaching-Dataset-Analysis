@@ -1,0 +1,119 @@
+Software Engineering Course Restructured to Support Agile Software Development Projects
+
+
+
+With the increasing adoption of agile methods in the industry, there is a need for restructuring the content and delivery of software engineering courses in universities and institutes. Such restructuring should also address the mismatch between the typical sequence of topics covered and the skills required to complete team project work. This paper presents the details of a restructured software engineering course and the findings from employing it in teaching undergraduate students in a computer science program. Student feedback has been positive on the restructured course topics to fit the knowledge and skills required to complete their project work. The paper summarizes the lessons learned with further improvements made to the approach in the subsequent course offerings.
+CCS Concepts: Social and professional topics, Professional topics, Computing education, Computing education programs, Software engineering education
+
+KEYWORDS: Software engineering education, Teaching and learning, Agile methods, Instructional design 
+
+
+1 INTRODUCTION
+
+Typical software engineering (SE) courses are expected to be very practical and interesting. Yet, most SE course offerings are less practical from the students' perspective despite incorporating semester-long group project work to provide several practice opportunities. Instructors often find that the students are not enthusiastic about learning complex SE concepts and problems [1]. Instructors also encounter challenges concerning using case studies, project work topic selection, keeping up with technology changes, setting up a development environment, and conveying the importance of effective team management skills [14].
+
+Team project work is one of the critical assessment components of many SE courses for the opportunity to practice various concepts and techniques. In SE courses that follow plan-driven methods such as the waterfall method, the sequence of activities to be completed as part of the project work fits very well with teaching related topics such as planning, analysis, design, and implementation. For example, the students learning agile methodologies such as Scrum must learn the necessary knowledge and skills spanning all phases of the systems development life cycle before the first iteration or sprint of their project work.
+
+This paper presents an approach to restructuring SE courses that focuses on project work based on iterative or agile methods. Following a brief overview of the related research in Section 2, the proposed approach is presented in Section 3. The implementation details of the proposed approach in a course offering are provided in Section 4. The remaining two sections explain the feedback received from students and lessons learned.
+
+
+3 PROPOSED APPROACH
+
+The proposed approach attempts to address challenges that often arise in teaching and learning SE courses with a greater emphasis on team project work following agile methodologies. Typical SE courses are offered either three credits (with three hours of lectures per week) or four credits (with additional two hours for practical or lab sessions per week) during a typical semester of either 13-week or 14-week duration. The first aspect of the proposed approach is about redistributing and sequencing the course content across four quarters of the course duration to facilitate the project work in three sprints or iterations in the remaining three quarters.
+
+The course syllabus of such introductory SE courses varies to some extent. The course's original syllabus outline is presented in Table 1. The specific topics under each unit in this table were based on the recommendations from the recent guidelines published by ACM/IEEE-CS [5], except for unit U4. Since the guidelines provided in this publication recommend 24 hours of content, the UI/UX design (Unit U4) has been included in this syllabus to help the student teams in application development and to set a context for teaching and learning some of the popular UML techniques. It can also be observed that the units in the above table also follow very closely the order of chapters in [12,13] – that can be covered in a typical course - with the exception of unit U4.
+Table 1: Original course structure
+Unit 	Unit (Lecture hours)
+U1 	Software development processes (3)
+U2 	Requirements engineering (8)
+U3 	Software design (8)
+U4 	User interface design (8)
+U5 	Software construction (2)
+U6 	Software verification and validation (4)
+U7 	Software evolution and reliability (3)
+U8 	Software project management (2)
+U9 	Tools and environments (2)
+
+Table 2 depicts an overview of SE course structure mapping across four quarters of the course duration. The key focus of this structure is to align the course content with the three-sprint project work, which is aimed at enhancing the practical aspects of the course. For this purpose, the coverage of topics can be done at introductory ('I') or intermediate ('M'), or advanced level ('A') so that necessary skills and knowledge can be imparted as the student teams progress through their project work.
+Table 2: Course structure mapping
+Unit 	Quarter
+Q1 	Q2 	Q3 	Q4
+U1 	I 			A
+U2 	M 	A 		
+U3 		I 	M 	A
+U4 	I 	M 		A
+U5 		I 	M 	
+U6 	I 	M 		A
+U7 				M
+U8 	I 		M 	
+U9 	I 		M 	
+Project work 	Planning 	Iteration 1 	Iteration 2 	Final Iteration
+(I – introductory; M – intermediate; A – advanced)
+
+During the first quarter, basic topics necessary for the first iteration or sprint are covered at the introductory or intermediate levels. In this redistribution, topics such as introductions to different types of systems development methodologies and their comparison, usually covered at the beginning of the course, are moved into the last quarter, and topics such as agile methodology, project management, techniques for capturing requirements and testing are brought forward into the first quarter. Thus, the material covered in the first quarter and early part of the second quarter prepares the student teams to start their project work in the second quarter. The topics in the remaining quarters facilitate the students to both appreciate and apply the concepts and techniques taught.
+4 IMPLEMENTATION
+
+The proposed approach was implemented in a 3-credit SE course offered to undergraduate engineering students at a private technological institution. The course had 184 students who were taught in two equally sized sections by the author of this paper. Students of this course were from computer science. All these students had completed a similar set of courses on programming, data structures, and algorithms. The course assessment included three components: project work (50%), class participation and assignments/quizzes (25%), and final examination (25%).
+
+The course content was formulated covering all the units listed in Table 1 is shown in Table 3 with weekly coverage of topics. This restructured content was focused on using Scrum as the selected agile methodology combined with a UI/UX methodology [15] for the teaching and practicing of UML techniques such as use case modeling, process modeling with activity diagrams, and object modeling. Lucidchart [7] was used for the collaborative creation of various diagrams for exercises and project work. In addition, the course covered the concept of work system snapshots [2] – though not part of the typical SE course content – early in the first quarter to emphasize the fact that any information system to be developed should fit into a specific business environment and possibly interact with other existing information systems.
+Table 3: Revised course structure with a weekly lesson plan
+Week # 	Topics covered
+W1 	Introduction SE; Challenges in SE; Types of software systems; Agile project management and Scrum; Team processes and responsibilities; Scrum roles; User stories; Writing user stories; Development tools
+W2 	Work systems; Work system snapshots; Preparing WSS and Software system purpose statement; Requirements engineering overview; Describing functional and non-functional requirements; Business rules; Identifying non-functional requirements and business rules; Introduction to UI/UX design methodology; Identifying user profiles; Developing personas; Preparing persona for a specific role
+W3 	Defining user requirements (user stories and UML - use case diagrams); Preparing use case diagrams using a given set of user stories; Interaction design (UML - use case descriptions; UML - activity diagrams; containers and navigation); Developing activity diagrams and identifying containers and navigation
+W4 	Information architecture; Mind maps and card sorting for UI design; Mind mapping; Low fidelity prototyping with wireframes, Wireframes development; Domain/object modeling; Object model using classes and relationships for the first sprint
+W5 	Attributes and different types of relationships in object models; Identifying attributes for the first sprint object model; Different types of operations/methods; Identifying operations for the first sprint object model; Introduction to software testing; Acceptance tests; Test planning; Writing acceptance criteria for user stories
+W6 	NoSQL databases; CAP theorem; Document modeling; Identifying document aggregates and references; Requirements validation; Techniques for writing good user stories; Validating a set of requirements
+W7 	Introduction to effort estimation, Effort estimation for user stories; Sprint velocity, burndown charts, and ceremonies; Extending object models; UML Communication diagrams; Preparing communication diagrams (for a given use case description)
+W8 	Software architecture and commonly used architectures; Architecture principles; Design principles; Four-tier architecture and its components
+W9 	Component diagrams for component design; Design principles; Cohesion and coupling; Identifying components in a class diagram; UI design principles; Analyzing a web application using UI design principles; Object modeling with transaction pattern; Applying transaction pattern for improving a given object model; design paradigms (structured, object-oriented analysis and design, service-oriented design, event-driven design);
+W10 	Usability heuristics and principles of usability testing; principles of good design and tradeoffs; A/B testing; Software testing concepts (validation/verification; type of testing); Test cases and data; Equivalence partitioning; Decision tables; Test case and data preparation
+W11 	Software testing (unit testing; cyclomatic complexity; integration testing); Integration testing strategies; Interface testing, Acceptance testing; Regression testing; Testing tools; Testing web and mobile apps; software quality assurance vs. software quality control
+W12 	Waterfall, incremental, iterative, and agile process models, SDLC, comparison of process models, Suitability of process models to a given project; Kanban and Scrumban methodologies; Agile methods for large distributed teams;
+W13 	Design patterns; Examples application of popular design patterns; Applying design patterns; Ethics for software engineers
+
+For the project work, the students formed teams (mostly with 5 or 6 members per team) on their own. There were 33 teams, with team sizes varying between 4 and 7 (only one team of size 7), that have worked on their team projects following the Scrum framework. Members of each team selected a product owner and designated a scrum master for their project work. The product owners and scrum masters were also expected to contribute to the system development activities by collaborating with the other team members. Each team of students has identified a business information system of their choice for the project work and submitted a brief description of the system, indicating the scope of the system to be developed for review and approval by the instructor.
+
+In addition to the informal feedback collected on various aspects of the course during the semester, feedback was sought at the end of the semester from the students via a Google Form which included questions on the depth of coverage and sequence of topics and feedback on their experience on project work.
+
+Figure 1 and Figure 2 summarize the feedback received from 47 students with regard to the depth of topics covered and the sequencing of the topics. As it can be observed from this summary, the restructured course has been well-received by the students. There are, however, some concerns regarding overemphasis on the user stories and use case diagrams. This is understandable as some students did not understand the importance of the requirements definition at the beginning of the course and were eager to start building the system. On the other hand, the sequencing of the topics covered was found to be in the proper order from the students' perspective as well.
+
+
+Regarding the project work (Table 4), the feedback indicated that a team size of five (average team size response of 4.851) is a good size for the project work considering the challenges in collaboration and coordination among the team members. Three sprints with a three-week sprint duration were deemed adequate for project work.
+Table 4: Feedback on the project work
+Questionnaire item 	Mean* 	Std Dev
+Project work was challenging 	4.255 	0.820
+I enjoyed working on the project 	4.404 	0.742
+Three-week duration for each sprint is appropriate 	3.787 	1.267
+Three sprints for the project work are adequate 	3.851 	1.122
+Project work improved my project management skills 	4.191 	0.876
+Project work improved my software system development skills 	4.106 	0.890
+* (1 – strongly disagree, 2 – disagree, 3 – neutral, 4 – agree, 5 – strongly agree)
+
+5 LESSONS LEARNED
+
+This section presents key lessons learned based on employing the proposed approach in offering an SE course and offers suggestions for further improvements to such course offerings.
+
+Although the content and sequence of topics covered were found to be appropriate and well appreciated by the students, the real difficulty was in effectively aligning course material with the project work schedule. During the first quarter, the emphasis was on covering the essentials appropriately to enable the student teams with the application development for the first sprint. This task requires a thorough understanding of the topics covered in the first few weeks. The instructor must be flexible with resequencing and covering topics as necessary. As the numbers of lecture hours during the first quarter are limited, the instructor can shift coverage of some topics that are not yet required to the early part of the second quarter. This shifting helps because the student teams do not need that knowledge at the beginning of their first sprint, as they will be busy expanding the sprint backlog specification during that period. Since it is impossible to cover all the topics at the same depth, the instructor has to decide and plan the sessions based on the students' prior knowledge and specific learning objectives of the course.
+
+Based on my experience of teaching the course, project work spread across three sprints of a three-week duration can be considered adequate and appropriate. The feedback received from the students also supports this aspect of the project work. Also, providing a couple of representative project titles - before the first sprint - with a brief description of the scope prior to student teams making a short project proposal for review and approval by the instructor was helpful. Expectations of system functionality to be delivered after each sprint (as described in the above section) turned out to be quite challenging to meet by most teams.
+
+Regarding the design and implementation of the project work, the following suggestions are made:
+
+    Given the open-ended nature of projects, some teams may venture into challenging projects that need significant development effort. Since the typical focus of most SE courses is to ensure that the students learn and practice a development methodology in small teams, it is essential to limit the scope of project work through project proposal submission and review as soon as the teams are formed.
+    It is recommended to limit the expectations related to deliverables at the end of each sprint for the project work. A feasible set of expectations in this regard can be: i) basic set up of the development and deployment environment with basic CRUD functionality of two to four simple classes from the problem-domain in the first sprint, ii) implementation of transaction functionality with business logic in the second sprint, and c) implementation of reporting and dashboarding functionality to support managers in the last sprint of the project work.
+    Each student team submitted details of the sprint progress (sprint plans with the selected user stories, reports of sprint review and retrospective, and burndown charts made using an Excel template provided to the teams) as part of the sprint project report. Many teams worked on the projects towards the end of the sprint – as they normally do – instead of spreading their effort over the three weeks of each sprint. To ensure that the student teams follow the agile method strictly, it is important to provide guidance early in the course, employ tools such as shared documents or cloud-based apps (e.g., Pivotal Tracker), and incorporate project management activity into the assessment. In this regard, support from trained teaching assistants will be helpful, especially when the class size is large.
+
+Regarding the tools and development environment, the following recommendations are made:
+
+    Using some popular full-stack development environments such as MERN or MEAN [16] and NextJS [17] for project work is expected to ease the development effort as there is extensive material (tutorials and videos) available for the students. Different students in each team may specialize in one or two components of such development environments. Practicing in these popular environments enhances not only student interest but also their employment opportunities. In addition, using free application hosting services such as Heroku [18] and development support tools such as GitLab [19] will enable the student teams to efficiently collaborate on their project work.
+    During the first couple of sprints, it is necessary to set up an online discussion forum to provide answers to frequently asked questions on the usage of various tools and to respond to any specific difficulties. It is possible to encourage students to provide guidance and support via such a forum, especially in large classes, by offering incentives such as marks for class participation.
+    Although it is expected that all students of a project team contribute roughly equally toward the project work, in practice some teams may have one or two members contributing very little. One possible way of preventing such a problem is to inform the students that the students of a team may contribute at different levels in different sprints (e.g., those who contribute less in the second sprint may contribute more in the last sprint). In addition, the instructor may privately and in confidence meet the students of teams expressing poor contributions to determine specific contributions and adjust the project scores for students of such teams.
+
+6 CONCLUSION
+
+The findings from implementing the restructuring of an SE course for supporting project work based on the Scrum framework are presented in
+
+this paper. The feedback from the students collected at the end of the semester reconfirms the suitability of the proposed structure.
+
+The restructured course is expected to benefit both students and instructors in many ways. Students are more likely to understand and appreciate the material covered as it builds on the practical experience gained rather than simply on their prior knowledge. The use of appropriate tools that offer increased visibility into the progress of various groups will benefit the instructors both in continual monitoring progress and in feedback provision. Although there will be some challenges in implementing the proposed structure, the benefits of improved student engagement and learning outweigh the costs of addressing the challenges.

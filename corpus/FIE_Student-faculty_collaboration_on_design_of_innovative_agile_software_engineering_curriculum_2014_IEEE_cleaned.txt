@@ -1,0 +1,144 @@
+Student-faculty collaboration on design of innovative agile software engineering curriculum
+
+ Abstract:
+The use of agile methodology components — agile methods, techniques, framework, tools, and applications — has more than tripled in the several most recent years because multiple large-size, middle-size and mostly small-size enterprises move from traditional heavily regulated processes-driven business approaches towards customer-focused and value-driven flexible business approaches. The performed analysis of the current status of agile methodology applications in industry clearly shows that it will soon need a significant number of well educated and highly skilled specialists in this area — agile software development project managers, agile software engineers, analysts, developers, testers, etc. The findings and outcomes of performed research motivated the authors — faculty and graduate student at Bradley University (Peoria, IL, U.S.A.)-to propose and design innovative Agile Software Engineering academic curriculum. This paper presents the main findings and outcomes of analysis, design and development phases of innovative Agile Software Engineering curriculum and courseware creation.
+
+ SECTION I.
+Analysis Phase: Agile Methodology in Software Development Industry
+
+During the most recent several years, the agile methodology (AM) and its main components, including agile methods, frameworks, practices, techniques, tools, and applications became very attractive for multiple large-size, middle-size and mostly small-size enterprises. “Agile methods are contemporary software engineering approaches based on teamwork, customer collaboration, iterative development, and people, process, and technology adaptable to change” [1].
+
+Traditional software engineering (SE) concepts, core framework and umbrella activities, methods, approaches and techniques are based on heavily structured models and plans, exhaustive documentation, and rigid processes designed to minimize possible changes in both software engineering (as a process) and software system (as a final product). AM, in general, is focused on bringing “… new innovative products and services to market more quickly and inexpensively on complex projects with ill-defined requirements” [2]. Because of the AM's focus on close collaboration and quick iterations “… agile development teams demonstrate increased team efficiency, lower development costs, faster time to market, better quality software, systems better suited to customer needs, repeatable results” [3].
+
+The 2012 survey of 4,000+ experienced AM users by one of the leading agile software development (SD) companies-VersionOne – enabled to identify and rank the main benefits of agile development methodology (Table I) [4]
+
+In order to take advantages of AM benefits, the leading SD companies such as Microsoft, IBM, Apple, Motorola, HP, Oracle, etc., are actively involved into research, design, development and implementation of AM in software project management (SPM), SE, SD, software testing (ST), and other software-related business processes.
+
+According to the leading market research company-Forrester Research [5] “… we continue to see agile methods gaining popularity; in …2010 survey fielded by Forrester and Dr. Dobb's Journal, about 39% of 1,023 IT professionals said that they follow an agile method”. This report clearly shows that the adoption of AM in SD industry is on the rise (Table II).
+
+In accordance with the Microsoft Research [6], “… a total of more than 60% of 400+ SD professionals either “strongly agree” or “agree” that “agile is working well for me”; about 60% “agile is working well for my team”, and about 60% “my team's developers and testers collaborate more with agile than before we adopted agile methods …” (Fig. 1).
+Fig. 1. - Team attitudes and morale factors concerning agile SD [6]
+
+ SECTION III.
+Design Phase: Goal and Objectives
+
+The overall goal of the proposed project is to make a valuable and timely contribution to the curricula and overall mission of CS&IS department at Bradley University by analysis, design, development and implementation of innovative undergraduate and graduate ASE curriculum.
+
+In order to achieve this goal, the project team identified the following objectives:
+
+    main topics: identify a list of main AM methods that are in high demand by various enterprises and agile experts in SD industry – those topics must be included into course topics;
+
+    agile practices: identify a list of the main agile practices that are in high demand by various enterprises and agile experts in SD industry – students should get hands-on skills and become proficient with those practices during lab sessions and course projects;
+
+    courses: design and develop innovative academic undergraduate and graduate ASE curriculum, including a) main topics and quality learning content, b) homework and lab assignments, c) tests, d) assignments for design-and-development and research course projects, e) midterm and final exams, etc.;
+
+    courseware: identify innovative ASE courseware, including a) agile tools on various technical platforms to support ASE course activities, b) state-of-the-art teaching strategies and learning approaches relevant to ASE; c) strong emphasis on team working, active use of agile practices and project-focused activities, and d) research projects on AM applications in SD industry;
+
+    collaboration and research: perform active research in ASE area and collaborate with industry to develop real world assignments for course and/or capstone projects, and, thus, enhance CS&IS graduates' knowledge base, hands-on skills, market value and competitiveness.
+
+SECTION IV.
+Design Phase: Selection of Course Main Topics
+
+The analysis of above mentioned surveys from industry [3]–​[6] and courses [7]–​[23] show that more than 20 different agile methods could be included into ASE course as main topics, including 1) Scrum, 2) Extreme programming (XP), 3) Kanban, 4) Lean, 5) Feature-driven development (FDD), 6) Agile Unified Process (AUP), 7) Crystal Family methods (including Crystal Clear), 8) Dynamic Systems Development Method (DSDM), 9) Adaptive Software Development (ASD), 10) pragmatic programming, etc. It is almost impossible to cover all those topics in one course (by using breadth-wise approach) and provide quality knowledge in each of them.
+
+Our approach to a selection of main ASE course topics is a depth-wise approach; it is considerably based on recommendations of AM experts from industry regarding most actively used agile methods. A summary of obtained research findings is presented in Table III. (A note: in reference [6] a sum for all agile methods is equal to 38.6%; in order to use a uniform approach in Table III, the original data from [6] have been re-calculated to arrive with a sum of a total of total of 100% as in publications [4] and [25]. The re-calculated data in Table III is presented in parenthesis). 
+ SECTION V.
+Design Phase: Selection of Agile Practices
+A. Agile Practices to be Discussed and Used
+
+A great variety of agile practices are used by SD teams/companies [1]–​[6]. For example, a list of agile practices ranked by representatives of Microsoft [24] and VersionOne [4] SD companies is presented on Figure 3 [24]. 
+Using our depth-wise approach and based on a) agile experts' rankings on Fig. 3, and b) the outcomes of our own analysis, we decided to introduce the following agile practices in proposed ASE curriculum:
+
+    code reviews,
+
+    unit testing,
+
+    automated builds,
+
+    user stories,
+
+    team coding standards,
+
+    iteration planning,
+
+    continuous integration,
+
+    simple design,
+
+    burndown charts,
+
+    stand-up meetings.
+
+Despite the fact that there are multiple available publications about several other agile practices such as 1) pair programming, 2) planning poker, 3) direct interaction with customer, 4) acceptance testing, 5) small releases, etc., we decided initially to exclude those agile practices from required ASE course components because of their relatively low ranking by agile experts [24].
+B. Use of Agile Practices in Course Project: An Example
+
+The example of a joint utilization of “code reviews”, “unit testing” and “simple design” agile practices in one of the course projects is described below.
+
+Team-based project assignment:
+
+    Using at least 3 different programming languages (select from Visual Basic, C++, Java, Perl, C#, PHP, or other language of your interest), create a code for mobile application that converts a numeric dollar amount into a phrase, for example, a given “96.78”numericvalueshouldbeconvertedinto“ninetysixdollarsandseventyeightcents”phraseanddisplayedinmobileapplicationGUI.Theapplicationshouldbeabletohandleanygivendollaramountintherangeof−10 M to $10 M.
+
+    Create GUI for assigned mobile application similar to a personal check of a virtual XYZ bank with its graphic logo, SWIFT-like route number, check number, etc.
+
+    Design a set of tests for “unit testing” agile practice, specifically develop at least 10 tests for “white-box” testing and at least 5 tests for “black-box” testing processes. Test mobile application's GUI, inputs, outputs, data exchange conventions and protocols, interfaces, and functionality.
+
+    Use the following required agile practices in this project:
+
+        “simple design” agile practice: a) use a pseudo code and create a quick code design of assigned mobile application; b) use any tool (like MS Visio, Visual Studio, Expression Studio, etc.) and create a quick mobile app's GUI;
+
+        “code review” agile practice: use selected tools and review all three developed codes – your own code and codes developed by other two members of your team;
+
+        “unit testing” agile practice: apply developed tests to developed codes of mobile applications (your own and two codes by your teammates); analyze the outcomes of unit testing with team members.
+
+SECTION VI.
+Design Phase: Selection of Agile Tools
+
+Currently a wide variety of agile tools are used by SD teams and/or companies; for example, a ranked list of types of agile tools is presented in Table V [4], where levels of ranking are: “1” – currently use; “2” – plan to use; “3” – would like to use; “4” – do not need to use. 
+
+Based on obtained research outcomes, the following agile tools have been recommended for active utilization in ASE courses: 1) VersionOne, 2) Rally, 3) AgileWrap, 4) AgileFant, 5) Kanban Board, 6) Trichord, 7) Kanban, 8) Smart Bear, and 9) Microsoft Solutions Framework.
+
+ SECTION VII.
+Development and Pilot Testing Phase
+
+During Spring-2013 and Fall-2013 semesters one of the coauthors taught pilot modules of the ASE courses. Additionally, in 2011–2014 several graduate students performed research in Mobile SE and AM areas under a supervision of one of the co-authors.
+
+During pilot teaching of ASE modules students have been asked to use scrum software engineering model (Figure 4) to:
+
+    design a) an architectural model of assigned mobile software system, b) identify its main components and links between, and c) design GUI of an assigned mobile software system, etc. using “simple design” agile practice;
+
+    complete 3–4 sprints of agile software and GUI development;
+
+    test developed mobile software system using “code review” and “unit testing” agile practices;
+
+    present a working software prototype of assigned mobile application;
+
+    evaluate quality of developed mobile software systems.
+
+The other assignments included but were not limited to:
+
+    perform research and make presentations on a) scrum methods, b) Extreme programming (XP), c) Crystal Family methods (including Crystal Clear), d) Dynamic Systems Development Method (DSDM), e) Kanban methods, f) Adaptive Software Development (ASD), g) Pragmatic Programming (PP), i) Lean methods, j) Feature-driven development (FDD), and k) Agile Unified Process (AUP);
+
+    perform research on real-world AM applications and best agile practices used in industry.
+
+ SECTION VIII.
+Project Findings
+
+The described project on analysis, design and development of innovative ASE curriculum was based on active student-faculty collaboration. The student co-author completed a summer internship in one of the large-size consulting companies with a focus on business analysis, agile project management, and agile practices. As a result, generated-by-student ideas about course components, learning content, assignments for lab sessions and course projects were very instrumental and significantly improved the quality of proposed ASE curriculum.
+
+Based on a) outcomes of pilot ASE modules' teaching, and b) obtained student and research associates' feedback, the up-to-date project findings are as follows:
+
+    Design and programming skills. Due to core “Fundamentals of Software Engineering” and “Software Project Management” courses, CS&IS students usually had no problems with actual individual software engineering, design, programming, and testing of various components of mobile software systems on various technical platforms.
+
+    Team work skills. Several learning modules and lab sessions focused on team working skills should be completed by students before introducing agile methods. Unfortunately, in traditional programming or software development courses students often are penalized for a collaboration between students; however, ASE require close team working – it is an essential part of agile practices in industry.
+
+    Virtual teams and collaborative tools. Vast majority of CS&IS courses are offered in face-to-face modes of teaching. It is essential for ASE students to learn basics of a) virtual team working, and b) modern Web2.0 collaboration and communication tools, project activities and iterations planning/management tools, scrum tools, Kanban tools, video conferencing tools, Web-based collaborative white boards, etc.
+
+    Face-to-face interaction and project team meetings. Periodic face-to-face project team meetings and interactions are still needed for virtual teams in order to develop or enhance communication, collaboration, and trust among team members.
+
+    Agile practices. Student project teams must use and master in as many agile practices as possible, including code reviews, unit testing, automated builds, user stories, team coding standards, iteration planning, continuous integration, simple design, burndown charts, stand-up meetings and other agile practices.
+
+    APM tools. Student teams should learn and use various available APM Web-based tools (for example, some tools from Table VI above) to document APM iterations and work flow.
+
+    Integration of software components developed by several team members or student teams. There were some reported problems relevant to a process of integration of software components within assigned mobile software system, i.e. with integrative programming skills; these technical skills are currently in great demand in industry. As a result, it is strongly recommended for students to take Integrative Programming course with main course topics on architectures for integrating systems, XML, DCOM, CORBA, RMI, Web services, WSDL, SOAP, etc.
+
+

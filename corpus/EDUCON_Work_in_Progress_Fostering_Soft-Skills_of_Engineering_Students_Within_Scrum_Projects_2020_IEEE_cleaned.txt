@@ -1,0 +1,137 @@
+Work in Progress: Fostering Soft-Skills of Engineering Students Within Scrum Projects
+
+Abstract — The integration of project-based learning and Agile approaches within the engineering degree program is considered to be an effective way for the development of teamwork and project management skills of engineering students. The objective of this paper is to present the ongoing practical experience related to the design and implementation of Scrum practices in the course “Project Work Technology” for first- and second-year engineering students. In addition, the results of surveys aimed at studying the students' perception of teamwork and project activities are presented.
+
+Keywords— engineering education, project-based learning, agile learning, Scrum, teamwork.
+
+
+I. INTRODUCTION
+One of the trends in today’s labor market is accelerated
+technology adoption, which is specifically expressed in the mass implementation of cyber-physical systems into manufacturing processes. Major technological trends include the development and dissemination of big data analytics, Internet of Things, cloud computing, additive manufacturing, virtual and augmented reality [1]. The trends outlined in the context of the overall change in production and the emergence of Industry 4.0 inevitably affect the requirements for the preparation of engineering students. It should be noted that universities have to build an educational process taking into account labor market demands and innovative educational approaches. The use of the integration strategy for curriculum change in engineering provides the mapping and coordination of different courses and integrating employability aspects such as teamwork and project management skills [2,3]. Modern engineering education has to meet the strong demands for an integrated approach to the development of subject-specific and soft skills, with an emphasis on lifelong learning, flexibility, and adaptability to the changing demands of the labor market.
+Since 2017, Bohdan Khmelnytsky National University of Cherkasy, with the support of the Ministry of Education and Science of Ukraine, has been implementing a project on modernization of educational programs based on the project- based and problem-based learning (PBL). The project investigates the strategies and methods of learning and teaching aimed at contextualizing the educational process and implementing situated learning, which will ensure the effective formation of a set of professional and general competencies of engineering students.
+As part of the project in the 2017–2018 academic year, an integrated course "Project Work Technology" was introduced to the engineering degree program in Automation and Computer-Integrated Technologies (ACIT). Students work on real-world projects, mastering theoretical knowledge and practical teamwork and project management skills while learning both relevant software and the basics of developing cyber-physical systems of varying levels of complexity. The peculiarity of the course is its interdisciplinary nature and connection between learning outcomes and content with other courses taught to students in each semester.
+The purpose of our work is to present the current experience in teaching Scrum methodology in the "Project Work Technology" course combined with UML modeling, and to evaluate the impact of this approach on the development of teamwork and project management skills of engineering students.
+
+
+
+III. IMPLEMENTATION
+In the 2017-2018 academic year, the integrated course “Project Work Technology”, that has a total of 21 ECTS credits, was first included in the ACIT degree program. The work in this course begins in the second semester of the first year of studies and continues throughout the undergraduate period, completing with a Bachelor's diploma project in the eighth semester. In each semester, a special focus was on the coordination of the learning outcomes and content of the “Project Work Technology” course with other disciplines of the current and previous semesters. Therefore, our course differs from some similar studies mentioned above, where the Agile approach was implemented mainly to serve single courses or capstone projects in software development.
+The main contributions are:
+x The integrated course is aimed at fostering continuity in the formation of soft-skills by coordinating the learning outcomes from different semesters.
+x The complexity of project tasks is increasing in order to save the hierarchical nature of engineering education.
+x The integration of Agile practices and UML models, which are widely used for many different purposes, is supported.
+x One of the purposes of the course is to familiarize the students with the concept of a personalized learning environment as an important element of lifelong learning.
+In each semester, 3 ECTS credits are allocated to work
+on the discipline of “Project Work Technology”, which is
+equivalent to 30 classroom hours. In the first two semesters, these hours were split evenly among the three types of student activities: lectures, computer laboratory work, and a project. Google Classroom, which is a useful and apt tool for presenting learning materials, posting quizzes and providing quick feedback, is used as an element of the learning environment. This approach conforms with the idea of hybrid PBL, which combines traditional classes that provide systematic and consistent knowledge formation in the disciplines of natural science and professional cycles, and the project activities of students.
+It should be noted that elements of flipped learning are used during lectures. This means that students independently prepare the materials offered by the teacher, and there is a discussion during the lecture aimed at revealing the level of awareness of the material and issues that cause difficulties. Self-directed student access to the various online tutorials, open educational platforms, and MOOC is also encouraged. This promotes student involvement into work with information from many different sources, fostering the comprehension of professional literature. During such combined, interactive classes, students are also involved in various types of team-building, critical, and creative thinking activities. In order to create presentations with real-time feedback, Mentimeter is used.
+Laboratory work performed individually aims to develop advanced skills of work with a variety of specialized software, for example, UML diagram tools in the first semester of course. Students upload the lab assignment reports via Google Classroom according to an assigned schedule.
+Project tasks are performed in teams. As mentioned above, their complexity will increase with each semester. In the first and second semesters of the course “Project Work Technology”, they are primarily aimed at adapting students to project work. Typically, the secondary education system is focused on the need to take standardized tests for admission to higher education institutions. This approach leads to the fact that students have difficulty engaging in activities that are based on a high degree of autonomy and, accordingly, the ability to act as self-directed learners. Therefore, we started by forming key aspects of project management including project definition and planning, idea generation and evaluation, working in collaboration with teammates, communication tools.
+
+A. Learning objectives
+In developing the learning outcomes of the course “Project Work Technology”, we referred to the list of learning outcomes included in the National Standard for the Bachelor of Engineering program in ACIT. Some of the learning outcomes are presented in Table I as an example.
+The course learning outcomes should be expressed in terms of competences. We divide these competencies into four categories: subject-specific competencies corresponding to general professional and special professional components, and generic competencies, including personal and interpersonal components, as well as those required later in the education process and professional field.
+
+B. Types of Problems and Projects
+The project’s task in the first semester for the course “Project Work Technology” was to develop the concept of small-scale information system with a focus on its practical application, search for information aimed at detailing the description and analysis of possible analogues of such systems, as well as to create a complex of UML diagrams in the Visual Paradigm environment. The project task is considered as ill-defined. Students had to model system goals, identify actors and use cases, draw main UML diagrams for own system taking into account constraints of the real world.
+Additionally, attention was paid to the use of the simplest tools of organizing individual and teamwork, namely Trello- based Kanban boards. An example of a Trello board created by one of the student teams is shown in Figure 1.
+Prerequisites for the project activities of students are defined by the basic programming skills they acquire in the previous and current semesters in the courses “Algorithmization and Programming” and “Information and Communication Technologies”.
+In the second semester of the course “Project Work Technology”, the project topic was related to the development of an online service of the university students' registration for elective courses and their allocation among these courses. Such a task is related to the real need of our university in terms of increasing its convenience and transparency. By agreement, one of the university's lecturers acted as a customer, helping to outline key aspects of the assignment.
+
+
+ TABLE I.
+Category
+Subject- specific (general professional)
+General competencies (personal and interpersonal)
+EXAMPLES OF LEARNING OUTCOMES FOR THE COURSE “PROJECT WORK TECHNOLOGY”
+Learning outcomes
+To be able to collect, analyze and process scientific and technical information related to the project task
+To be able to connect the professional practice and needs of humanity and society
+To be able to take self-directed learning by means of generalizing the acquired experience and further applyingitinone’sowneducationalprocess
+To be able to work effectively within project teams
+    Subject- specific (special professional)
+ To be able to apply in-depth knowledge of software development in practice using Scrum framework
+To be able to apply in-depth knowledge of object- oriented design and programming
+To be able to choose and use the appropriate UML modeling software
+   General competences (required in the learning and the professional field)
+ To be able to identify the purpose of the project and work consistently and methodologically correctly to achieve these goals
+To be able to present the results in written, oral and graphic form
+To be able to communicate with other team members using different software
+
+
+The course lecturer played the role of Project Owner. The group of ACIT second-year students consists of 17 students, so they worked in teams of five or six members. In each team, one student played the role of Scrum-master. In the second semester of the course “Project Work Technology”, students started from the analysis of information. The task was to create Project Vision and Agile Project Charter, describe product owner, scrum-master and team members' responsibilities, develop use case diagrams and describe use cases, which is necessary for creating the user story map and mastering the Product Backlog.
+As shown in [17,18], there is an opportunity to effectively combine student projects in Scrum practices, like sprints, backlogs, etc., and UML models, namely, use cases and components. Therefore, students had to use the skills acquired previously to create UML diagrams for this project and, simultaneously, to study the features of Scrum methodology. Visual Paradigm was chosen as the software for the project implementation, as it has the ability to create UML diagrams as well as to develop the whole set of documents and automated support for Scrum.
+In the third semester of the course “Project Work Technology”, the next phase of this project is planned, namely, the students will directly work over the practical development of the online service using the Scrum methodology. In the same semester, students begin to study the technology of creating web applications. This will ensure the interdisciplinary nature of the project.
+
+C. Assessments
+During the first two semesters, the assessment of students’ academic achievements was carried out in the ratio: 20% – quizzes conducted on the theoretical aspects, 40% – individual laboratory reports, 40% – final project.
+The main requirement for learning outcomes is their measurability, which implies the use of a certain scale for measuring academic achievement. In our case, in developing the learning outcomes for the theoretical module, we used Anderson's taxonomy as the one having elaborated vocabulary dictionaries. We used the formative assessment approach. Quizzes that consist of multiple-choice and short- answer questions were developed utilizing Google Forms. These questions correspond to different levels of Anderson's taxonomy: knowledge, understanding, application, analysis, evaluation, and synthesis.
+Evaluation of students' projects in the course “Project Work Technology” includes the assessment of the process of project component design, the project results and its presentation. The guide to student projects assessment contains a brief description of the criteria and rubrics for all types of student activities. The information about the assessment criteria is presented in Google Classroom and our students have open access to this information.
+During the presentation of the project (in the first semester of the course “Project Work Technology”), students listened to their peers' reports, took part in the discussion and completed a Google Form, where they were asked to rate different components of the project on a 5-point scale.
+
+IV. EXPERIMENTAL DATA
+It should be noted that the design and implementation of Scrum practices in the course "Project Work Technology" for the first- and second-year engineering students is only a part of an integrated strategy for a curriculum change. Therefore, we started to carry out regular surveys of students. One of the objectives of these surveys was to obtain feedback from students in order to improve the curriculum in the future.
+The first section of the questionnaire contains questions related to teamwork perception [6,19]. We used a five-point Likert scale with numerical grading from 1 to 5, where 1 stands for 'Do not agree' and 5 stands for 'Totally agree'. In the current academic year (second semester of the course “Project Work Technology”) 14 students took part in the survey. The results are presented in Table II.
+
+
+TABLE II. SUMMARY OF STUDENTS' RESPONSES ABOUT THE TEAMWORK EXPERIENCE (MEAN SCORES AND STANDARD DEVIATION)
+ #
+Item description
+Item
+Mean SD
+4,29 0,91 4,07 0,47
+4,07 0,83
+3,57 1,02
+4,00 0,55
+4,43 0,51
+2,86 1,10 3,71 0,99 3,86 0,77 4,79 0,43 1,50 0,76 4,29 0,73
+    1 Teamwork was critical for the successful project completion
+2 My teammates helped me understand the ideas and materials of the project
+3 I learned how to plan the work of the team
+4 It was difficult for me to work with ill- defined problem
+5 I was active in discussing the project and in expressing my own position
+6 I learned to understand what information I was missing and how to look for it
+7 I acted as a team leader
+8 I played different roles in the team
+9 I learned to identify my strengths and weaknesses in the team
+10 I think the teacher helped organize the collaboration
+11 It was difficult to communicate with other team members
+12 I felt motivated to work as a team
+
+
+The results shown in Table II demonstrate that students have a positive perception of teamwork. They understand the importance of teamwork for successful project completion. In addition, the influence of the project on the skills related to searching and analyzing information was highly estimated.
+In addition, the students were requested to evaluate how much their abilities have changed after using Scrum framework in project management. The proposed list of items and results are presented in Table III.
+
+
+TABLE III. SUMMARY OF STUDENTS' RESPONSES TO THEIR ABILITIES' CHANGE (MEAN SCORES AND STANDARD DEVIATION)
+ # Item description
+Item
+Apply knowledge of IT and engineering 1 disciplines when discussing a project
+assignment
+2 Apply methods and software tools in
+practical situations
+3 Use ICT (Trello boards, messengers, etc.)
+to optimize teamwork
+4 Thinking critically, analyzing and
+evaluating own ideas
+5 Thinking critically, analyzing and
+evaluating ideas of other team members
+6 Search for, process and analyze
+information from a variety of sources
+7 Understand and accept customer requirements
+8 Be self-directed learner 9 Plan and manage time
+10 Present own ideas and speak on behalf of the team
+Understand the economic, social and 11 security aspects of engineering and IT
+issues
+Mean SD
+4,07 1.00
+4,21 0,70 4,29 0,83 4,36 0,74 3,79 0,89
+3,93 0,83
+4,00 0,68 3,86 0,66 3,57 0,65 3,57 0,94
+3,29 0,91
+
+
+The development of critical thinking skills was highly rated. In addition, the students have demonstrated a positive perception of the role of project work in the application of knowledge of disciplines, methods, and tools in practice.
+The preliminary results of the course "Project Work Technology" implementation show a high level of students' motivation and their willingness to cooperate in a team. According to the survey results, students are interested in tasks related to the real professional context. The main problem, however, is a lack of self-directed learning skills in students, which is especially noticeable for underclassmen. The students positively perceive the use of ICT during classes while actively participating in the proposed interactive tasks.
+Therefore, the general evaluation of the course "Project Work Technology" implementation reveals the importance of such activity despite some difficulties which were observed. Such as, the necessity of coordinating learning outcomes and course content requires a responsible attitude of all stakeholders as well as regular consultations between staff and faculty members. Some of them expressed worries about the significant additional workload, which is quite true, at least for the initial iteration of the course implementation. At the same time, the use of the Scrum method gives an opportunity to form some flexible structure in which separate topics and the complexity of projects could change, for example, during the involvement of local businesses. Also, among the significant reasons to adopt Agile learning for first-year students is the necessity to prepare them for future activities, i.e. internships and capstone projects.
+As mentioned above, we will use our current experience, insights gained during the course and feedback from students in our further work. The actual realization of the Scrum- based project will take place in the next semester of the "Project Work Technology" course.

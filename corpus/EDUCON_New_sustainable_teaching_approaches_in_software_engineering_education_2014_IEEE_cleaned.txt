@@ -1,0 +1,78 @@
+New Sustainable Teaching Approaches in Software Engineering Education
+How agile methods influence teaching software engineering
+
+Abstract—Ten years ago, it was usual that projects in the software industry ran on for years before the customer was able to lay his hands on the product he had ordered. This often resulted in delays, budget overruns and disappointing deliverables. During the last decade, the Agile approach has been taking over software project management, shortening product development cycles from a few years to a few weeks or even days. Recently, the agile approach has even been used for developing a new car which runs 100 miles per gallon [1].
+Several recent surveys [2], [3] show that agile methodologies like Scrum, Extreme Programming or Kanban have successfully been adopted by many companies to develop software. However, agile methodologies do not come for free. A different set of skills, or agile practices as they are called, are necessary for the software engineers in order to be able to sucessfully deliver high-quality software at the end of every iteration. The same surveys show that only few of the agile practices are used and even fewer are applied consequently and thoroughly. This is to a great extent due to the lack of skilled software engineers. Although teaching agile software development has drawn some attention in recent research, we do not yet seem to be able to “deliver” the appropriately skilled engineers. What is the reason for this, and more importantly, how can we improve the situation? In this position paper we propose a more holistic approach for teaching agile software engineering, in which the required agile practices and values are not only integrated theoretically but also practically applied and repeated until they become a habit to students and software engineers.
+
+Keywords—Software Engeering; Openness; Agile Processes; Education;
+
+I. INTRODUCTION
+In the software industry, many companies have adopted agile development [2]. In the Swiss Agile Study [3], a survey conducted by the authors, these findings have been confirmed. More than half of the participating companies are using an agile methodology – Agile has become mainstream!
+Unfortunately, this also has a significant impact on the agile team constitution. The early adopters of agile approaches were all highly mature and technically skilled experts in their fields. They had internalized the agile philosophy, were very productive and produced high quality results. Today’s agile teams, however, are “normal” software teams, with architects, seniors and juniors in one team, and many of them are not yet familiar with the agile philosophy. Even though those teams have improved in software development to some extent, they are far less productive than the early adopter expert teams. Survey results show that quality has partially even gone down and overall costs increased. One reason for this is that many of the important agile practices are not applied as thoroughly [3] as the agile pioneers proposed them to be.
+In this position paper we will analyze the situation on the industry and education side in more detail to find out which engineering and management skills are missing and propose the “pyramid of agile competences” as a guideline to teach these skills. We will suggest a holistic teaching approach, which integrates the necessary agile skills and the core agile values into the education of agile software development.
+
+IV. TEACHING AGILE SOFTWARE ENGINEERING
+The authors are convinced that these different competence levels should be taught in an integrated approach when teaching agile software engineering.
+Approaches can range from individual single software engineering modules, to a more bottom-up approach of an adapted classical software engineering curriculum to a real agile software engineering curriculum, which considers all the special agile competences needed from the very beginning. Any approach could be accompanied by a large one- or even multi-semester team project, where the taught competences are directly applied. Especially the latter approach requires a strong coordination of the different courses. This is not easy with lecturers who insist on their independence of teaching.
+The authors have started to adapt their software engineering courses in the mentioned directions and have made first very positive experiences and received encouraging feedback from the students.
+
+A. A Bottom-up Adapted Teaching Approach
+Figure 2 shows the adapted software engineering curriculum of UAS Northwestern Switzerland. The course Software Construction in the second semester of the undergraduate level (B.Sc,) focuses on teaching the agile engineering skills in an integrated way. It covers many of the XP practices like unit testing, version control management, automated builds, continuous integration, continuous quality control, refactoring and clean code [9].
+These practices are applied in a concrete one-semester case study in teams of three students. Typically an invited guest talk from industry concludes the course, which demonstrates the practical relevance of the course content to the students. Building upon these engineering skills, the follow-up Software Project Management course focuses on management practices like iterative and incremental development, self-organizing teams, and values such as openness and interaction [10]. This course teaches the agile management approach by applying a modified version of the Scrum City game [11] in teams of six to seven students. The Scrum City game is a Scrum simulation project in which a project team has to construct a little city using cardboard. The students simulate the complete Scrum process over five 3-hour lessons. They build a Scrum team with its three roles; write and estimate user stories; do the release and sprint planning, and execute four sprints with 10 minutes each including the retrospectives, for continuous process improvement.
+
+B. An Integrated Teaching Approach
+Since 2012 a Software Engineering course has been taught at Zurich University of Applied Sciences, which is designed to give the students a good working knowledge of agile software engineering. The course is a typical 16-week semester class in the last year of the undergraduate level (B.Sc.). In this course, the students apply agile engineering- and management practices and special attention is paid to agile values. The course was designed and is being evolved with the pyramid of agile competences in mind.
+In Scrum teams of six to eight students, software applications are developed while strengthening the students’ agile software development skills. In the first round of the course, all the teams developed computer games. In the second round, the teams could decide themselves, what kind of application they wanted to develop. They had to propose a project idea, which had to be accepted by the instructor. Three teams developed innovative web-applications and one team a distributed computer game.
+
+Table 2 shows the layout of the course. The course is divided into two parts of equal length. The two parts reflect the competence pyramid in Figure 1. Part one (week 1 to 7) lays the focus on building a strong foundation, i.e. the engineering practices. Part two (week 8 to 14) builds the second layer of the pyramid, i.e. the management practices. Both engineering- and management practices are actively applied in the student project during part two. In our experience this layout leads to a more sustainable teaching approach.
+ TABLE 2. OVERVIEW OF SEMESTER PLAN
+  Lecture
+ Workshop
+ Week
+1 eXtreme Programming Agile Manifesto
+2 eXtreme Programming Version Control
+3 eXtreme Programming Project Automation
+4 Continuous Integration
+5 Unit Testing
+6 Unit Testing/Mock Objects
+Clean Code/Code Smells
+7 Refactoring
+8 Introduction to Test-Driven Design / Scrum
+9 Scrum
+10 Scrum
+11 Agile Estimating and
+Planning
+12 Metrics Agile Teams
+13 User Stories Agile Principles
+14 Demonstration of computer applications
+15/16 Preparation for examination:
+No lecture
+V.
+Installation IDE and Plug-Ins
+Coding Assessment 1 Coding Assessment 2 Version Control System (SVN)
+Build Scripts (Ant)
+CI (Jenkins Build Server) JUnit
+JUnit
+EasyMock
+Refactoring
+TDD, The Craftsman articles
+Agile Development (Sprint 1)
+Agile Development (Sprint 2)
+Agile Development (Sprint 3)
+Planning Poker Agile Development (Sprint 4)
+Metrics (EMMA) Agile Development (Sprint 5)
+Agile Development (Sprint 6) Preparation for examination:
+No workshop
+
+V. EXPERIENCES AND ANALYSIS
+The feedback for both described approaches is very positive, each having its strengths and weaknesses.
+
+A. A Bottom-up Adapted Teaching Approach
+The course Software Construction is taught in the second semester parallel to the second advanced OOP course after the students have visited the first OOP course. The students like the course for several reasons: first, it is very practice oriented, introducing and applying today’s state-of-art tools and environments for an efficient software development as needed for an agile approach. Second, students are used to and like to work with tools. They experiment with them themselves and get curious about their usage. Third, for the first time they experience the complete construction process from coding to testing, integration, and continuous quality control with immediate feedback. The open dashboard of the continuous integration server, where the build results of all groups are available, establishes transparency and a positive competition among the teams. The teams rapidly see the advantages of such environments and are asking to use it for the student projects. The guest talk emphasizes the practical relevance of the course and makes the students even more curious about this kind of software development. The feedback for the Scrum City Game simulation is very encouraging. The students especially like living the complete process and make very positive experiences with the retrospective as a mean for a continuous process improvement, which even works with small 10’ sprints.
+Another student feedback is that they would like to practice the agile engineering process in a real software project.
+
+B. An Integrated Teaching Approach
+At the end of the fall semester 2012, 24 students filled in an evaluation form2. At the end of the fall semester 2013, the evaluation was repeated with 25 students3. An excerpt of the encouraging results is shown in Table 3.
+The evaluation shows that the concept of this course is being well received, and that participants are learning a great deal about agile methodologies while having fun.
+The evaluation shows that the adjustments for the fall 2013 lectures have improved it even more.
+

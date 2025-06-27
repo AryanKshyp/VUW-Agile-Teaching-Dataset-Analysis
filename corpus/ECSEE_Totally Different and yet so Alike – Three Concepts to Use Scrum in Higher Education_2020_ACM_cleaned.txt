@@ -1,0 +1,492 @@
+Totally Different and yet so Alike – Three Concepts to Use
+Scrum in Higher Education
+
+ABSTRACT
+Software process models are important in software projects in
+order to give the work of a project guidelines or a framework.
+However, teaching process models in higher education seems to
+be quite challenging. This has to do with the fact that undergraduates have no experience with projects in which process models
+are used. The theoretical mediation of process models is initially
+on a very abstract level. For this reason, we chose to combine two
+didactic approaches, namely problem-based learning and project
+work.
+Various traditional plan-driven process models have been expanded in courses in Software Engineering with agile process
+models. The Scrum Framework is the focus of consideration of
+this paper.
+Three Universities of Applied Sciences which cooperate in the
+EVELIN project focused on Scrum as a process model and integrated it into their teaching. Since the respective concepts of implementation differ, they should be presented and compared in
+this article to presents some practice approaches.
+The goal of this presentation of is a uniform evaluation in or
+der to obtain insights from different perspectives. This comparison can draw conclusions for possible necessary improvements of
+the respective concepts.
+CCS CONCEPTS
+• Software and its engineering  Collaboration in software
+development. • Social and professional topics  Software engineering education.
+KEYWORDS
+Agile Methods, Scrum, Software Process Model, Higher Edu
+cation
+
+1 Introduction
+Due to the increasing growth of technology in our society,
+software is becoming more and more important in almost every
+part of our daily life. However, developing high quality software
+is a complex process creating many pitfalls and challenges in software development projects. In this context, education in Software Engineering (SE) as a cross-sectional discipline is becoming increasingly important. Software development goes far beyond pure programming. On the one hand, it includes numerous activities like communicating with stakeholders and customers outside the development team, extracting and managing the requirements and testing the software. On the other hand, there is a variety of roles within a development team that have to be filled out and that need to communicate and work together efficiently during the process. Hence, software engineers not only need specialist knowledge, but also numerous multidisciplinary skills.
+An essential aspect to give software projects a structure and a framework and to regulate the coordination and cooperation of the employees are process models. These models are interesting on two levels: (1) the specialized knowledge and the goal-oriented use of such models are important, (2) the interaction of the involved persons is central to the structure of such a model [1]. In addition to models such as, e.g. waterfall models or Vmodels, agile processes are becoming increasingly important [2]. Scrum and agile methods have become indispensable in the current profession (especially with regard to engineers or computer scientists).
+
+For this reason, it is of great importance to familiarize the undergraduates in their training with agile process models, especially Scrum, as part of their education. Therefore, the focus of this paper is on the presentation of three concepts for the didactic preparation of agile process models in the SE module of three Universities of Applied Sciences (UAS): Aschaffenburg, Coburg and Regensburg. Many job advertisements expect software developers to be familiar with Scrum. Likewise, agile methods are also used in other development areas and projects than just in the IT industry. Therefore, addressing agile methods, and in particular Scrum, in higher education contributes to the employability of graduates. Following the work of Landes et al. [4], which already deals with teaching and learning of process models in SE using the V-model, in this paper we focus on Scrum as an agile process model.
+However, communicating the special features of process models remains a challenge, as the undergraduates have little to no experience concerning the implementation of large projects. Initially, for undergraduates the learning of process models takes place on an abstract level. Therefore, they can only develop a limited understanding of which process models are a prerequisite for a type of project. At first glance, traditional plan-driven models seem to follow logic, while agile methods tend to look chaotic.
+Because of these difficulties, a traditional teaching method to mediate knowledge on a theoretical level, such as a lecture, is not
+sufficient. Therefore, other didactic approaches should be chosen:
+problem-based learning and hands-on project work [3, 4].
+The longterm goal of this presentation of the three concepts
+of the universities is the respective uniform evaluations and their
+comparison in order to obtain insights from different perspectives. The aim should not be to find a “best solution”, since a uniform concept for all three universities cannot be depicted structurally due to the different framework conditions. Nevertheless,
+the comparison can draw conclusions for a possible necessary improvement of the respective concepts.
+This paper represents a practice report. No systematic literature review of didactic approaches to learn and teach Scrum was
+carried out.
+The remainder of the paper is structured as follows. The paper
+first takes a look at the Scrum Framework, its terms, artefacts,
+events and roles in Sec. 2. Based on the theoretical consideration,
+the didactical implementation (e.g., sprint length, role allocation,
+exam etc.) will be described for each of the three universities in
+Sec. 3, also explaining the integration into the bigger context of
+the whole module/degree program. Last, the didactic concepts will
+be contrasted with each other to complement the paper and illustrate the divergent aspects in Sec. 4.
+
+3 Didactic Conception
+When introducing agile methods into the SE modules of the
+three Universities of Applied Sciences, it should be about learning
+and implementing Scrum as a framework and not about Scrum as
+a teaching method. The undergraduates should become familiar
+with the framework at a professional level and implement it in
+their own software project. In these projects, undergraduates
+work according to the problem-based learning approach in autonomous project groups and have to go through a software project
+in teams.
+Professional competence – system competence – is characterized by the four areas: technical, methodological, social and self
+competence. This leads to the following teaching goals:
+ Technical competences: The aim of each course is to enable students to experience the software life cycle in a holistic
+way. The projects are intended to tie technical and non-technical software engineering skills together as a capstone
+project in which students traverse all steps of the development cycle, from eliciting and analysing requirements
+through delivering a working and well-tested software system which is accompanied by adequate documentation, facing a firm deadline at the end of the project. This implies
+that the project topic for each project is much more complex
+than anything the students had to master so far. But even if
+the aim of the course is a software system, the focus is on
+experiencing a development process as a whole and in a
+team rather than delivering a perfect piece of software. The
+SE project allows bachelor students to try out a specific role
+in a software engineering process such as requirements engineer or test specialist.
+ Social competences: Students shall train their competences for working together in a team. It is important to understand that a team process has specific dynamics, and
+that challenges are not so much technical but more social
+issues. Students shall clearly understand that software engineering is a team challenge, and that they can only succeed
+if they work together as a team. The whole team is responsible for the final outcome.
+Students shall foster their communication skills by interacting within their team and, of course, with customers.
+ Personal competences: As an important nontechnical
+teaching goal, students shall learn to organize their work independently. This means that instructors no longer act as
+super-project managers who overrule the “legal” project
+managers or Scrum Masters in some situations. Rather, students must plan their time and agree on a schedule – there
+is no preset project plan, but rather students, and in particular master students, need to assemble the project plan with
+the team.
+ Methodological competences: Students are expected to
+explore various options in a specific situation including e.g.
+Sprint Reviews and decide which options best meet their
+own goals. Yet, students should also have the freedom to
+make mistakes, learn lessons from them, eventually develop
+alternatives, and decide which is best. Students are expected
+to try out things without being bounded by tight restrictions
+imposed on them by the instructors, except for one: The
+deadline for the termination of the project must be met under all circumstances.
+In order to be able to compare the approaches of the three universities with each other, different categories were chosen to compare the implementation of Scrum or the integration of elements
+of Scrum in the various SE courses: “Teaching”/Learning/Didactic
+goals, the tailored implementation, project length, Sprint length,
+role allocation, Daily Scrum, Sprint Review, Sprint Retrospective,
+the exam, and the value added (e.g.: Improved team performance
+through team support from a Scrum Master).
+The following sections cover the detailed descriptions of the
+three different approaches.
+3.1 OTH Regensburg
+3.1.1 Educational Context
+At the OTH Regensburg, the module “Software Engineering in
+Teams” (SET) has been available for many semesters. Within one
+week, students work in teams and pass through the development
+stages of an entire software project – from requirements gather
+ing, analysis, architecture and design to implementation and commissioning (see Figure 2).
+Currently, SET is a compulsory elective course (5 credits according to the European Credit Transfer System (ECTS)) There
+are no prerequisites, but it is recommended to have attended the
+module “Software Engineering of Safe and Secure Systems” (SES)
+before (lecture + tutorial/practical exercises accompanying the
+lecture).
+3.1.2 Tailored Implementation
+The module SET can either be taken parallel to the module
+SES or, as recommended, first the module SES and one semester
+later SET. Both modules are offered as elective modules in bachelor’s degree programs of electrical engineering, mechatronics
+and renewable energies every semester.
+3.1.2.1 Kickoff. As already indicated, the aim of the course is
+that students pass a complete software life cycle within the project. During the semester a kickoff (see Fig. 3) event takes place,
+in which first the structure of the course is presented. Afterwards
+the students divide themselves independently into teams of no
+more than nine persons. They do not yet know the concrete project task, which has certain advantages and disadvantages. Once
+the teams have been found, the newly structured teams are
+trained in team building with an experienced trainer and coach in
+order to find their way together and launch the project. Special
+topics here are, e.g. emerging phases in teams, measures to manage those phases, characteristics of high-performance teams and
+self-reflection. After the team building, the teams then have to decide on the technology they want to work with: The LEGO NXT
+robot, the Cozmo robot or the Vector robot.
+3.1.2.2 Theoretical preparatory work. Since students can take the
+course without any further previous knowledge, they need to be
+familiarised with relevant theoretical content. In addition, all
+teams should be equipped with all necessary skills. Therefore we
+expect them to provide a theoretical introduction with distributed
+competences until the start of the project week. For this purpose,
+they receive a catalogue of topics that they distribute within the
+team and prepare in form of wikis so that they can use them during the project week. Each team member has to make a contribution and build expert knowledge on his or her topic to support
+other team members during development. This work will be evaluated later and is included in the grade as part of the individual
+performance. The wikis must be submitted before the project
+week.
+This task requires a lot of consultation and coordination within
+the team to really identify the important content for the respective
+superordinate entry. We only provided examples of possibly necessary topics as a starting point for the students. The aim is to
+ensure that the respective expert for the topic advises his team
+competently in decisions. If a team decides on Scrum after the customer has announced the task, the expert must know that a project status report or a Milestone Trend Analysis (MTA) is not anchored in agile process models in this way, but that a Work Breakdown Chart is created instead.
+3.1.2.3 Project Phase. The project phase takes five days and
+starts on a Monday at the end of the semester. After the goals and
+expectations of the students for the project week have been determined, the customer of the project (a research assistant unknown to the students) presents the project task. This task contains requirements for a robot that can be driven manually and also has an automatic mode to find its way out of a maze. Optional requirements are the recording of the map and the possibility to leave the maze on the shortest way based on the recording. Students can question the customer and are then asked to consult in their teams and start the project work. Additional requirements of the customer are a documentation, the use of a version management and artefacts corresponding to their process model. We require them
+to report their progress to us on a daily basis.
+To manage their project, they must first select a process model
+and assign the corresponding roles accordingly. On day 1 the focus is also on project planning (depending on the process model).
+More and more teams choose Scrum as their process model, which is why we will now describe it in more detail. Of course we also motivate the students to take the chance and try out an agile
+approach.
+The project work is self-organized. As lecturers, we are available as coaches and advise the teams when required.
+3.1.2.4 Sprint. In order to plan their Scrum process, the students
+have to decide on the number and length of their sprints. Upon
+request we would recommend 1 day sprints to students due to the
+short development time of 5 days.
+3.1.2.5 Role Assignment. On day one, the teams are required to
+choose their process model and assign roles accordingly. The
+teams choosing Scrum will have an additional briefing about the
+role assignment with our help, since we assumed that students
+underestimate the roles of the Product Owner and the Scrum Master and believe that after the second day these roles would no longer have a task. We decided to fill both roles with students who feel confident in these roles. They receive additional material and instructions as well as the opportunity to moderate meetings together with us.
+3.1.2.6 Daily Scrum, Sprint Review, and Sprint Retrospective.
+Daily Scrums should be performed by each team additionally to
+the daily reporting to us, in order to keep track of the tasks and
+activities within the team. We offer to attend the Daily Scrum
+meetings, to help with organization or provide assistance if
+needed.
+3.1.2.7 End of Project. On the last day of the project week a system and acceptance test take place with the customer, respectively us. This includes a final presentation in which the teams present their work and reflect on the project week. The acceptance test is part of a competition, e.g. fastest team to exit the maze, allowing all teams to celebrate the end of the project together.
+3.1.2.8 Interviews. At the end of the week the coaches conduct
+interviews with each participant individually. These interviews
+focus on interdisciplinary aspects such as the perception of team
+work and one's own role, completed team phases, conflict management, etc. On the other hand, we are interested in technical content such as the contribution made to an artefact, which will then be explained in more detail. The interview takes place with trainers and coaches and is also evaluated. Each interview is scheduled to 15 minutes.
+3.1.2.9 Exam and Assessment. The module must be assessed at
+the end of the course. As this module is very project-oriented, we
+have established the following assessment guideline. It should be
+possible to achieve a total of 100 points. The guideline is divided
+into the two large proportions important to us. The disciplinary
+section, mainly represented by the interview (40%) and the inter-disciplinary section, mainly represented by teamwork (30%). The guideline is presented in Table 1.
+Table 1. Grading Guidelines
+Type max. points
+Individual contribution
+Wiki 20
+Interview 40
+Group contribution
+Teamwork 30
+Final presentation 5
+Level of Task Fulfilment 5
+3.2 UAS Aschaffenburg
+3.2.1 Educational Context
+For the module “Software Engineering” at the University of
+Applied Sciences Aschaffenburg in the Bachelor degree program
+Mechatronics, it is important to provide the undergraduates with
+the appropriate professional and methodical tools. So far, agile
+process models and the Scrum framework were only considered
+within a short time frame in the lecture and thus on a theoretical
+level. The classic procedure and process models were given more
+time. Although the undergraduates were free to choose a process
+model in the subsequent practical project phase, classic project
+management was chosen. But this choice was also affected by corresponding framework conditions similar to classic models (e.g. submission of a specification, submission of a Gantt diagram using
+MS Project), which were influenced by the lecturers.
+An aspect for the use of Scrum (or at least elements of the framework) is the fact that problems during the teamwork occurred, which the lecturer receive as feedback after the project phase in the last semesters. These are e.g. unequal distribution of tasks, communication problems within the team, and “free riders” or no-shows. Project support in the form of a Scrum Master, who
+accompanies the Scrum events “Sprint Planning” and “Daily Scrum” and also moderates a “Sprint Review”, could help to meet the challenges and problems mentioned within the development team.
+As a result, agile process models, in particular Scrum, will be
+given more attention in the course. Especially in the Retrospective, in which the Sprint phase is reflected with regard to team processes, communication behaviour, etc., in order to improve them in the next sprint. Furthermore, a Scrum Master can act directly on problems such as tensions in the team or “free riders”.
+3.2.2 Tailored Implementation
+The didactic setting for the module SE at the University of Applied Sciences Aschaffenburg (5 ECTS, 3 hours per week) is presented in Figure 3.
+
+3.2.2.1 Lectures. During the lecture (2 semester hours per week)
+selected subjects of SE will be taught by the lecturer. The contents
+of the lectures are based on common specialist literature on SE.
+3.2.2.2 Seminar Phase. The seminar phase (1.5 hours per week)
+takes place in the first 6 weeks of the semester parallel to the lecture. Here some basic topics will be dealt with in groups. To work on the topics, the undergraduates autonomously split into groups (maximum four undergraduates). In total there are five seminar topics (project management & artefacts, version and configuration management with subversion, source code documentation with Doxygen, introduction to the development platform (Fujitsu microcontroller board with CAN bus and Eclipse based toolchain with C programming language) and as a new topic agile process models and Scrum). Each seminar topic is handled by three groups. In the end the undergraduates with the same topic develop a common poster or another suitable form for the presentation of the edited topic to present it on a kind of specialist conference (teaching/learning concept known as the “market ofknowledge”).
+3.2.2.3 E-Learning. In order to convey generic competences to undergraduates in the context of the SE module, a Moodle course
+was designed. The contents of the course are based on the categories of contextsensitive competences for SE [4], which are based on the professional competence (see Sec. 3). Each category is presented in one chapter and the contents are conveyed with the help of written explanations, illustrations, tables, and videos.
+3.2.2.4 Project Phase and Length. The project phase (7 weeks,
+1.5 hours per week) follows the seminar phase, with the aim to
+apply practically and deepen the knowledge gained in lecture and
+seminar phase. The students’ workload is 30 hours on average for
+the project, out of which 10.5 hours they and the lecturers are present at the university. SE methods should be improved by the support of the “simulation” of a realworld software project and the understanding of the development of software.
+In the past, the undergraduates have always been free to choose a process model. But by focusing on classic procedural models in the lecture and by submitting corresponding artefacts (e.g. specifications or the use of MS Project) the undergraduates receive requirements that actually imply the use of classic process models in practical implementation. Therefore we introduce the new topic “agile process models” in the seminar phase. The obligatory submissions of artefacts is adjusted so that e.g. no requirement specification has to be submitted, but documentation of the product backlog by photo submission. This is to ensure that undergraduates choose an agile process model based on Scrum without doubts. The undergraduates can choose which process model they want to work with after presentation of several classic and agile models in the lecture and elaborations of process models in the seminar phase.
+3.2.2.5 Sprint Length. The sprint length is based on the total
+project length of seven weeks, so that a sprint takes 1 week.
+3.2.2.6 Role Allocation. By introducing the Scrum roles, the classic roles were modified and implemented. The development team is represented by all group members and thus consists of six to eight undergraduates. The role of the Product Owner will be realized by the entire project team (if necessary, a person crystallizes who leads the tasks, but all members are equally responsible for customer contact and the requirements in the product backlog). A kind of Scrum Master is represented by a kind of “Project Support” which will be represented by a research assistant, so the process coaching remains independent from grading and students may communicate problems more trustfully than to professors without concerns about an impact on grades. Contributing as a Scrum Master requires skills which are hardly found within the student group, in single cases experienced master students may do.
+3.2.2.7 Daily Scrum, Sprint Review, and Sprint Retrospective. The
+project is very small, a weekly sprint does not mean one week of full time work, but typically one or two days in a week, so the undergraduates are asked self-responsibly to hold a Daily Scrum
+everyday they meet.
+All stakeholders participate in a Sprint Review to take the maximum profit for product improvement. Similar as in industry, also in academia the effort is high with many participants, so after a first full featured Sprint Review the effort can be reduced with
+some experience to the best profit/cost ratio. After the Sprint Review, the Sprint Retrospective takes place, which is moderated by one of the Scrum Masters.
+3.2.2.8 Product Backlog. Since other project groups still work in
+parallel with a classical process model, requirement changes must
+be injected moderately to demonstrate clearly the higher flexibility of agile methods without disturbing the classical model project groups too much. The backlogs are visible in the working room also to other project groups. For grading the breakdown to the sprint backlog is documented photographically.
+3.2.2.9 Exam and Assessment. Grading implies artefacts of the
+seminar phase, a written examination after the seminar phase, the
+artefacts of the project phase including the documented backlog progress and a final oral examination. Partial grades for artefacts
+are group grades (see Table 2), but individual contribution is considered additionally, so in extreme cases a student who never shows up may get 0 points in spite of an excellent group result. A group colloquium, in which the undergraduates reflect the project phase in their project groups in the presence of the examiners, also takes place, which, however, remains ungraded.
+Table 2. Grading Scheme
+Type Percentage of Grade
+Individual contribution
+Short exam (after seminar phase) 20 %
+Colloquium (after the project phase) 20 %
+Group contribution
+Seminar Phase 30 %
+Project Phase in total 30 %
+ Traditional Process Models
+ Requirements Specification 5 %
+ Project Planning 5 %
+ Test Documentation 5 %
+ Product 5 %
+ Product Manual 5 %
+ Presentation 5 %
+ Agile Process Models
+ Sprint 15 (each 3 %) 15 %
+ Product 5 %
+ Product Manual 5 %
+ Presentation 5 %
+3.3 UAS Coburg
+3.3.1 Educational Context
+At the University of Applied Sciences Coburg, students in the
+bachelor program in informatics can enrol in a software engineering project (SE project) in their final year. Participants acquired solid programming skills during courses in their first and second
+years, and they already took a compulsory introduction to software engineering and two elective courses focusing on software requirements, architecture, and testing in more detail. This establishes a theoretical basis that enables students to apply process models like Scrum at all.
+In addition to theoretical lectures and practical projects, the
+teaching-learning content is also available as learning videos,
+which is particularly beneficial for audiovisual learners [12]. A
+particular advantage of learning videos lies in the fact that learners can deal with relevant topics repeatedly, independent of time and place, at a pace appropriate to their learning speed.
+This SE project is offered as an elective course which typically
+runs for 14 weeks. It is associated with 6 ECTS. Consequently, the
+project puts a workload of approximately 180 hours on each participant. This workload includes 4 contact hours per week in which the project teams physically meet at the university. During
+these physical meeting, instructors are also present but only act
+as observers unless explicitly asked for support by the student
+teams. Additionally, teams meet virtually, e.g. using tools such as
+Skype or social media to make agreements. So far, we have had
+nine iterations of the SE project in the years 2011 to 2020.
+Since the course is an elective, the number of participants varies from year to year, ranging from 10 to 25 students. Participants
+are split in projects teams of 4 to 6 members. Normally, project
+topics differ between teams, but all topics are contributed by real
+customers.
+Organizing a team, tailoring a process model, and developing
+a software system at the same time overtaxed Bachelor students.
+Therefore, from the third iteration of the SE project we mixed
+bachelor and master students in the same project. Bachelor students focus on technical issues, constitute the development team, and experience project management in a more passive fashion. In contrast, the master students are in charge of leading the project
+and in particular of adapting the process model to the specific situation. The development team (bachelor students), supported by
+a Scrum Master (a master student), has to decide on which deliverables and which project roles are really important. Likewise, the Scrum Master has to organize the Scrum process for the team, answering such questions as how long Daily Scrum should last, how they should be held when the team cannot meet physically, or what methods should be used to express and prioritize user requirements. To enable them to fulfill their roles, Instructors offer coaching for master students to reflect and improve their leader ship skills. This individual coaching establishes a forum to discuss challenges and problems they face in their teams and obtain help by the instructors to master these challenges. Coaching is offered on an on-demand basis, i.e. only when requested by the master
+students.
+The main role of the instructors is the coaching of the master
+student, but not interfering with bachelors’ team processes. Bachelor students should get the chance to learn by their own experiences, not by getting rigid instructions from instructors.
+Typically, for each project team a real customer is available.
+He brings in a specific problem which should be solved with a
+software system, e.g. a travelling management system, a fleet
+management system, or a campus management. It is worth noting,
+however, that usually the customer is not familiar with Scrum and
+will therefore not act as a Product Owner in most cases.
+3.3.2 Intended Learning Outcomes
+The course is designed as a Capstone project. The teaching goals differ for bachelor and master students. The focus for bachelor students lies on understanding and combining chunks of technical knowledge, which up to then have been isolated, into one big picture, and on integrating in a team, which includes fostering communication skills. Master students focus on organizing and leading a team. The difficulties for them are, e.g., communicating with team members, and structuring tasks and motivating team members for effective teamwork. Master students are responsible for the results and for meeting deadlines as well as for assuring the quality of the software.
+It is important to note that the project may be run on any process model, not necessarily Scrum. At the beginning of the project,
+the master student agrees on a process model with the bachelor
+students. Often, but not always the teams choose Scrum.
+This freedom of choice increases motivation since students are
+not forced into a specific process model they do not like. The theoretical basics of the process models, however, are familiar to all students in advance. Therefore, the students have a certain ability to judge which process model is most useful for their project.
+3.3.3 Software Engineering Projects with Scrum
+Since a major intended learning outcome for master students
+is learning to organize a project and a project team, one of their
+most important tasks is customizing Scrum to the specific situation.
+3.3.3.1 Project length. Project length is fixed to 14 weeks in order not to interfere with endofterm exams.
+3.3.3.2 Sprint length. Typically, project teams work in sprints of
+two week. However, several project teams decided to overrule
+common Scrum recommendation and work in sprints of different
+durations in order to minimize project risks. To that end, these
+teams tend to have one or two oneweek sprints and move towards threeweek sprints near the end of the project.
+3.3.3.3 Role allocation. A master student fills the role of Scrum
+Master. In one offering of the project, we had a second master
+student who acted as Product Owner. Normally, the Scrum team
+cooperates with the customer to fill the role of a Product Owner:
+the development team is in charge of writing user stories and filling the product backlog, prioritization is accomplished in close cooperation with the customer, and the customer decides on acceptance or rejection of increments in the Sprint Review.
+Apart from that, the development team is free to choose additional roles. Typically, some team members specialize on requirements analysis, others on architecture, testing, or configuration
+management and tool support. Occasionally, the role allocation is
+based on architectural layers, i.e. there are frontend and backend
+specialists in the team. In this case, developers act as full-stack
+developers.
+3.3.3.4 Daily Scrum, Sprint Review, and Sprint Retrospective.
+Since the project teams do not work full-time on the project, but
+rather are involved in other courses or activities, a physical Daily
+Scrum is almost impossible. As a way out, project teams regularly
+embark on virtual Daily Scrums, using tools such as Skype or Google Hangout. Nevertheless, the teams have at least one physical meeting per week which may include a physical Daily Scrum.
+Typically, the Sprint Review takes up to one hour and includes elements of a Sprint planning meeting, i.e. the customer and the development team agree on the user stories for the following sprint.
+Sprint Reviews last half an hour in most cases and are followed
+by the second part of the sprint planning for the next iteration
+where the project team breaks down the chosen user stories into
+tasks and assigns responsibilities and deadlines.
+3.3.3.5 Exam and Assessment. Intended learning outcomes are
+mainly competences and, consequently, assessment is competence-oriented as well. At least two instructors accompany/observe the project teams during the presence hours each week to get an idea of teamwork and individual contributions.
+In particular, grading of the bachelor students is based on the
+following aspects:
+ technical quality of results (completeness, complexity of
+the project topics) including artefacts such as requirements specifications, software architecture documents, test specifications etc.
+ (customization of and) adherence to a process model,
+ individual technical contribution,
+ individual teamorientation,
+ individual selfreflection, and
+ final presentation. 
+Likewise, grading for the master students was based on
+ adaptation of the process model including documentation of the tailored process,
+ process quality and leadership,
+ self-reflection,
+ final presentation, and
+ resumes of team members.
+There is no written examination.
+A postmortem reflection is conducted as an additional element to stimulate learning. To that end, students were asked to reflect on their own individual role in the project as well as the performance of the entire team. Reflection and metacognition are advantages of project work and are didactical methods to foster soft skills and competences.
+Self-reflection is stimulated in two steps. First, each of the students had to prepare a short individual self-report that addressed issues such as
+ their roles and tasks in the project,
+ their expectations with respect to the project and the degree
+to which these had been met,
+ particular issues in the project that they personally would
+have treated differently and, from their personal point of
+view, more successfully,
+ which role they would have liked in the project and what
+they would have done differently in that role, and
+ how interaction and cooperation between team members
+evolved during the project, including their subjective explanation for these changes.
+Secondly, one week after the project was complete, the project
+team met with instructors and research assistants for a postmortem analysis session lasting approximately two hours. This feed
+back session had an open format without strict structure and
+served to reiterate any possible aspect that seemed worth being
+discussed in the group. Instructors used information found in the
+students’ self-reports, addressing statements mentioned in the reports, challenging some of the statements made in the reports, and
+asking the entire team to comment on these statements.
+4 Comparison
+When looking at Table 3, the obvious convergences cover the identical learning objective, the similar group size, the fact that no written exams take place (except a short test at Aschaffenburg after the seminar phase); instead all universities base their grading more or less on the artefacts developed. Another commonality is the usage of Sprints, Reviews, and Retrospectives. Whereby, due
+to time restrictions, Review and Retrospective follow in direct succession. Differences between the approaches are: Full time block
+week versus 90 minutes per week, the project and Sprint length,
+accordingly, the virtual Daily Scrums at Coburg as well as the division of roles, especially the one of the Scrum Master. Addition
+ally, the role of the customer varies in the different approaches
+from research assistants or graduate students that simulate a customer to real customers, which come from external companies or
+other departments/institutions within the university.
+
+Table 3. Comparison of the Three Variants
+Regensburg Aschaffenburg Coburg
+Didactical
+Objective
+ Tie technical and nontechnical (social, personal and methodological) software engineering skills together in a project in which
+students traverse all steps of the development cycle, experiencing a development process as a whole in a team
+ Employability of undergraduates, hands-on problem-based project processing the SWLifecycle in an agile manner (Scrum)
+Didactical
+Setting Project Work Lecture, Seminar, Project Phase and E
+Learning in one semester
+Bachelor teams with a master student as
+Scrum Master; Capstone project; coaching
+for master students, but no lecture
+Usage of
+Scrum not obligatory; undergraduates can choose between agile and traditional models
+Team Size 6 to 9 members 6 to 8 members 4 to 6 members, in rare cases up to 8 members
+Project
+Length
+1 week (block, full-time (>40 hours per per
+son))
+7 weeks, 1.5 hours per week plus additional effort the undergraduates invest; on
+average 30 hours per person for the project
+14 weeks, 180 hours per person
+Sprint
+Length 1 day/half day 1 week Varies, decided by students
+Customer/
+Stakeholder
+Research assistants (not lecturers) simu
+late the role of the customer
+Research assistants simulate the role of
+the customer
+External companies or institutions within
+the university
+Role
+Allocation
+Development
+Team:
+Undergraduates
+(6th semester)
+Development
+Team:
+Undergraduates
+(4th semester)
+Development
+Team:
+Undergraduates in their
+final year
+Product Owner: Undergraduates
+(= Development Team) Product Owner: Undergraduates
+(= Development Team) Product Owner:
+varies (Undergraduates,
+external, or graduate stu
+dent)
+Scrum Master: Undergraduates Scrum Master: Research Assistant Scrum Master: Master Student
+Daily Scrum Daily in the morning selfresponsibility of students to hold a
+Daily Scrum everyday they meet Mostly virtual
+Sprint
+Review Daily in the evening Physical meeting of customer and Scrum
+team at the end of each Sprint; weekly
+Physical meeting of customer and com
+plete project team (approx. 1 hour) at the
+end of each Sprint
+Sprint
+Retrospec
+tive
+Daily, after the Sprint Review and moder
+ated by the Scrum Master
+Weekly after the Sprint Review, moder
+ated by the Scrum Master
+Physical meeting of complete project team
+(approx. 0.5 hours) at the end of each
+Sprint
+Exam Interviews and artefacts
+Regarding the Project Phase: Artefacts and
+product are graded; short exam after semi
+nar phase
+Grading based on deliverables and obser
+vations, including individual contributions
+and team effort
+
+5 Outlook
+As a goal of this comparison of approaches a common evaluation tool could be used in order to get detailed insights into the
+arrangements. This shall not have the purpose of finding the best
+concept or directly oppose them. All of them have their reasons
+of being as they are tailored to the specific framework of the very
+application of Scrum in an undergraduate project. The aim is to
+determine the advantages and disadvantages of the concepts and,
+based on this, to be able to make adjustments/changes; maybe also
+following the example of the other approaches and show the diversity of the approaches.
+One tool to conduct such an evaluation, which could be
+adapted and/or supplemented with different other aspects is
+SECAT:
+SECAT is a competence oriented evaluation approach to get
+feedback on a didactical setting [13]. The competence goals address in the SE projects have to be mirrored in SECAT’s underlying theoretical model. SECAT’s theoretical model consists of eight
+criteria on three levels of competence: functional level, processual
+competences, and holistic shaping competences. Each criterion is
+defined specifically w.r.t. Software Engineering.
+The functional level includes predominantly technical
+knowledge and the ability to present technical content. Processual
+competences consider the immediate context of Software Engineering processes. Since some of the criteria are product-focused,
+the adaptation to software engineering follows the spirit of quality characteristics of software systems, such as those captured in
+the SQuaRE model [14]. The highest level of Software Engineering
+competences considers more than the “small world” of software
+engineering. This level pays attention to various processes, but
+also to the consequences of actions that software engineers may
+take. This level contains competences which are required when
+acting sensitively in a complex context. A creative solution needs
+to be developed for each problem since no standard recipe would
+work.
+The three levels of competence are arranged in a hierarchy.
+Without knowing, e.g., design patterns or programming languages at the functional level, no creativity of solution can be accomplished at the holistic level. The higher the level of competence, the more complex is the competence and the more important are nontechnical skills. Overall, SECAT covers the entire
+competence profile of Software Engineering.

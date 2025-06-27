@@ -1,0 +1,66 @@
+Reviewing the Curriculum of Software Engineering Undergraduate Courses to Incorporate Communication and Interpersonal Skills Teaching
+
+Abstract
+The major problems of software development projects are not so much technical as sociological in nature. The industry seems to agree very much with this statement while the university seems to give it little importance. The article begins analyzing some related work and proposes changes in software engineering undergraduate courses to accommodate new ways of teaching and to incorporate professional skills teaching. It also describes a course on extreme programming where some techniques will be used and evaluated.
+
+1. Introduction
+The main emphasis of Computer Science courses is the development of technical skills by students undertaking the course (IEEE/ACM cited in Pham, 1997). This focus on technical skills poses problems for future professionals when they are supposed to build information systems where their activities are part of a team effort. According to DeMarco et al. [1] since they work in teams and projects and other tightly knit working groups, they are mostly in the human communication business. Their successes stem from good human interactions by all participants in the effort.
+Researches conduced in Australia seem to confirm the statement above. In Australia, surveys of employers have shown that the qualities they consistently rate most highly in graduates relate to their communication skills, their ability to work together in teams and their technical writing skills, besides their basic technical knowledge. (Business Higher Education Round Table and Department of Employment, Education and Training cited in Keen, 1998)
+The Business/Higher Education Round Table, Australia conducted a survey in 1992 in which both business and university were asked to rank the desired characteristics of university graduates. The results are shown in Table 1. [2].
+
+Table 1. Desired characteristics of university graduates (where 1 is the most desired).
+  Desired Characteristics of Graduates Rank Business
+Communication skills
+  1 2 3 4 5 6 7
+7 5 8 3 4 6 1
+Capacity to learn new skills and procedures 
+Capacity for cooperation and teamwork 
+Capacity to make decision and solve problems 
+Ability to apply knowledge to workplace 
+Capacity to work with minimum supervision 
+Theoretical knowledge in a professional field
+Capacity to use computer technology 
+Understanding of business ethics 
+General business knowledge
+Special work skills
+A broad background of general knowledge
+8 2
+9 12 10 11 11 9 12 10
+           This survey indicates that business and university differ in their ranking of the importance of characteristics in the graduates in two major areas:
+1. Communication skills, a capacity to learn new skills and procedures, and a capacity for cooperation and teamwork. In each of these cases the university rankings are well below those of business, particularly in the area of communication skills.
+2. Theoretical knowledge in a professional field and a capacity to use computer technology. In these cases university has rated these characteristics higher than has business. [2]
+These results are consistent with the views of some authors, like DeMarco and Lister [1], Goguen and Linde [15] and Goguen [9]. They state that software development is strongly affected by social issues. So, it cannot be treated in a purely technological way.
+Other researchers have been studying methods to improve the education of software engineering in order to address these social issues. In this paper, the authors review some recent developments in this area and propose a review in the computer science curriculum in order to accommodate these methods. In particular, they start proposing the introduction of an extreme programming course which will use some of the techniques presented in this article.
+
+3. Proposal
+Based on the evidences given before, the authors of this paper are working on a research project in order to change the way software engineering is taught at Federal University of Rio de Janeiro. They are trying some of the techniques presented in this paper in order to change the way technical subjects are taught.
+At the present moment, experiments are underway in a technical course on Extreme Programming. The authors are using concepts presented in this paper such as:
+• The adoption of a large-scale project
+• The involvement of an external client
+• Open ended group project
+Their approach is to change the curriculum gradually trying the techniques in different
+subjects.
+The Extreme Programming Course
+This is a semester long course for a class composed of 20 students. The content is based on the books of Beck [4], Beck and Fowler [14] and Jeffries et al. [7]. The introduction of extreme programming teaching to computer science undergraduate courses is not new. It has already been described in the works of Shukla and Williams [12] and Müller and Tichy [6].
+Shukla and Williams [12] describe a course based on a 16-week semester class where the students completed four Java programming projects during the course of the semester. Three of the projects were completed as the students were learning and using more traditional software development practices. These practices were based on the Collaborative Software ProcessSM (CSPSM) developed by Williams. They found that one semester is not long enough to teach two very different methodologies nor for the students to perform meaningful assignments using them.
+Furthermore, the students didn’t work at all times co-located and with a customer on site. So, the experience didn’t reflect the work of a real extreme programming project where co-location is strongly recommended and the customer should be present.
+Müller and Tichy [6] developed an extreme programming course where, in the first three weeks students solved small programming exercises to familiarize themselves with the programming environment and to learn XP practices. The exercises introduced jUnit (the testing framework used throughout the course), pair programming, the test practices of XP (write test cases before coding, execute them automatically with jUnit), and refactoring. The remaining eight weeks were devoted to a project on visual traffic simulation. The course language was Java. All students had experience with Java from their early undergraduate courses. As in the case described by Williams, the students didn’t work at all times co-located and with a customer on site which brought some problems.
+The proposal of this paper tries to overcome the problems found in both cases. Firstly, it focuses only in one methodology, the extreme programming. Secondly, the students work only in one project through the course. And they develop software during the classes, so they are always co-located and they always have the customer on-site.
+The project is the development of software to support the dissertation of a graduate student who acts as the customer all over the course. This approach is interesting, because the teacher doesn’t act as the customer. He acts as the coach of the team. This project use Java as its development language.
+The class is divided by five to form five teams of four students each. In each team, the students work in pairs. They practice pair-programming at all times following the recommendations of Williams et at. [5][8].
+The students are evaluated in two ways, according to their individual achievements and their behavior working in the team. Every week the teacher proposes a reading assignment for the students. They have to read a text and answer some questions posed by the teacher in the following class. The texts are used so that students can learn more about each characteristic of the methodology. This evaluation represents half of the week grade.
+The other half is based on teamwork. Students are observed while they work in pairs and the teacher grant marks according to the way they work with the pair and the other teammates. The teacher doesn’t evaluate the final product, but only the process used by students to build the product. So, the students are not supposed to work on the project when they are not in class.
+Each class takes four hours and there’s one class per week. In the first hour the teacher asks the students about the text they’ve read along the week before the class. In the second hour the teacher gives a lecture on the subject of the class. And in the remaining two hours the students work on the project.
+
+4. Results
+In order to evaluate the results of this teaching method, the teacher has created a few forms which have been fulfilled by students. After each class the students received a form containing four questions about the method. The students were always supposed to answer the questions anonymously.
+In the first class the teacher has proposed a group dynamic so that students could get to know each other. On the following class, they’ve been asked if they felt better posing questions and making comments after knowing their classmates. For 63% of them the group dynamic has been really useful and gave them more confidence to take part of the class’ discussions.
+They also agreed on the evaluation system. The teacher has proposed this system on the first class and the students were asked about it a few classes latter. For 94% of the students this evaluation system assesses fairly each student’s learning. As the evaluation takes place every week, the teacher sends the evaluation results to the students every week, which gives them feedback about their achievements. Among the students, 83% believe this feedback is very useful and helps to motivated them so that they become more interested on the course. When asked whether this evaluation system should be applied to other technical disciplines 89% of the students answered affirmatively.
+Pair programming was also very well accepted by students. All of them said they enjoyed the first exercises with pairs. In particular, they were also very enthusiastic about doing their exercises at the class. For 94% of the students doing their exercises at the class is far more effective than doing them at home. They said they learn more this way because they have the opportunity to discuss some ideas with their friends about the subject they’ve just learnt. This reinforces the learning process.
+
+5. Conclusion
+This paper began describing the concerns of business towards software engineering professionals in the areas of communication and interpersonal skills. Both empirical research and anecdotal evidence confirms that business remains strongly concerned over the teaching of this area. The authors presented some works that try to address those concerns. They do that changing the teaching of technical content or introducing the teaching of professional skills. Finally, they propose the adoption of some of these techniques in order to change the teaching of software engineering at the Federal University of Rio de Janeiro.
+
+6. Future Work
+This experiment is the first of a series of experiments the authors intend to put in action in their research which looks for new ways of teaching computer science courses in order to shorten the gap between industry expectation and university expectation. The results of this experiment will be available in the future in the form of a new paper.
+

@@ -1,0 +1,121 @@
+Teaching eXtreme Programming Remotely
+
+Abstract
+This paper has two objectives: discussing how to teach eXtreme Programming (XP) and how to teach it remotely as a way to enlarge critically small departments. We show how to teach XP using class projects. We also discuss some of the problems brought to effective distance education by this method and their solutions. We essentially find in this case study that XP can be studied remotely and that distance education can be used to “staff” software engineering programs.
+This paper tries to attack two problems: shortcomings in the teaching of Agile Methods and shortages of software engineering staff.
+
+1. Teaching agile methods
+We have frequently taught software engineering using practical projects. EXtreme Programming (XP) is no different; in fact, it is easier to present with a project in the course because of the brevity of the books describing it. The syllabus in Appendix A is representative of how the course is organized here. Generally, XP is taught in detail two times, once with Kent Beck’s original book on XP [1] as background, once with another book generally in the XP series as published by Addison-Wesley. In the offering the sample syllabus describes, William Wake’s text was used [2]. I have also utilized Ken Auer and Roy Miller’s book [3]. The next time that the course is offered, Beck’s book on test-driven development is a likely second text [4]. Both Wade and Auer are surveys of the entire technique. These readings are divided by some of the literature criticizing XP in general. The first project and its accompanying metrics are in Appendix B. Student suggestions for projects are evaluated by the instructor for a second XP project with the same metrics. The projects roughly parallel the presentation of the books.
+In the spring of 2002, Carnegie Mellon University (CMU), and Allegheny College conducted an experiment in synchronous distance education. The instructor was primarily in Pittsburgh, where CMU is located, with monthly visits to Meadville made either during class time or later in the day for individual work. Whichever site the instructor occupied at a given class period, he also narrowcast the class meeting on two-way television.
+One reason for this prototype class, besides the content, was to explore the possibility of creating a virtual computer science department. There is tremendous difficulty recruiting suitable faculty for the computer science departments of small, primarily liberal arts colleges. One solution may be to combine several departments of computer science and offer courses in which all could participate. This has been done elsewhere for departments of classics, in that case not for reasons of recruiting, but because few small schools can afford a complete department for small numbers of students [5]. It was suggested that Allegheny do the same, within the context of the consortium that coordinates small college computing of which it is an important member.
+This recounts the prototype course. Initially it discusses the topics of institutional issues, handling different calendars, equipment, staffing patterns, student course evaluations, and future funding, later we will talk again about teaching XP.
+
+2. Institutional issues
+These include the roles of the faculty and which courses to offer. As far as the faculty are concerned, the instructor of a course of this type should be outgoing (no easy task to find this type of person in many computer science departments), comfortable with the technology, and willing to work hard at contacts with the remote students. They should also expect to work harder at teaching in general. It is widely recognized that distance education instructors begin preparation for distance education courses at roughly twice the time spent in class and general preparation by on-campus instructors, reducing this to about one and a half times as they gain experience. Power struggles among deans were discussed in the article cited above. This subject never arose, because the course was one desired by the offering department at Carnegie Mellon and the Allegheny dean supported the experimental course.
+As far as what to offer is concerned, it is the author’s feeling that the distance education courses of this type ought to be electives. The core courses in the curriculum ought to be taught by an institutions’ local faculty. This is because those courses are generally the ones in which the professors impart a particular institutions’ style of programming and documenting, This, of course, makes it a little harder on the distance instructor, in that they have to be aware of different styles, but it is easier than teaching them or reaching a multi-institutional agreement on them.
+
+2.1 Reconciling calendars
+Allegheny’s spring semester is a day shorter at both the front and back ends, and the schools have Spring Break at different times (see Appendix A). The instructor handled this as follows: contrary to his usual practice of presenting some material in the first class, he spent the first meeting at CMU reviewing the mechanics of the course. Then he had the first content day of the course at Allegheny, videoconferencing back to CMU. Several Allegheny students commented favorably on this, as they never expected to see the instructor except on the monitor. This way the instructor could handle individual mechanics-type questions immediately and set a tone of care for the remote students.
+As for the breaks, the class centered on the two big projects, with part of the requirement being a weekly effort report to the instructor. Class was suspended during both breaks, with each school’s contingent told to work during the week that their school was in session, checked by the weekly report and by making a key progress milestone due the week when classes resumed at both locations.
+Actually, the very best item of support was a course web site. This used WebCT for organization supplied by Allegheny. The staff of the media center provided training for the instructor in using WebCT. It is the campus-wide course support tool at Allegheny. CMU uses Blackboard, a similar system. Allegheny wanted to use WebCT to show that they were making a larger contribution to the course. The CMU students received WebCT access, so all the slides, study questions, assignments, etc., were accessible to all students on the web site. Students at either school could access this material. Browser technology makes its location irrelevant.
+
+2.2 Equipment
+Both schools used videoconferencing supplemented with a considerable number of electronic messages. Allegheny has a campus-wide videoconferencing center, located in a good room with decent furniture. It only lacks the ability to transmit slides.
+CMU has its videoconferencing distributed by department, so there are several sets of equipment on campus. The set owned by the School of Computer Science has slide transmission capability, but it has been relocated several times, it was even threatened with relocation during the course to a room too small for the class, and is currently in an ugly, substandard location.
+One session was affected by equipment failure. The CMU system was unplugged from its ISDN lines by a janitor, and not plugged back in. The instructor, not knowing where the ISDN lines were, merely thought he had a failure to connect. He arranged for a chat room to be established for the course, and informed the students that if there was another equipment failure, expect him in the chat room at 7:00 p.m. to discuss the day’s material. The chat room was never used, but the instructor recommends that such a contingency plan be put in place at the beginning for courses heavily dependent on technology.
+
+2.3 Staffing
+Greg Kapfhammer of Allegheny did yeoman work preparing for this course on the Allegheny side. He either handled or informed the instructor of items that had to be taken care of such as textbook orders, interacting with the registrar, entering final grades, etc. The instructor recommends the minimal use of a course “champion” at the receiving schools.
+The CMU instructor was an authority figure for all the class meetings. During the second half of the course, Greg met one hour per week with the Allegheny students to facilitate their second project, for which he was the client. The instructor tried to keep the Allegheny instructional contribution at a minimum to prove that resources could be saved. However, Greg wanted to do this extra-seeming work in order to put effort on a research project for a paper, which he completed with two students from the course. Even so, this was much less than a full course preparation, so the experimental nature of the course was preserved.
+
+2.4 Student course evaluations
+The primary instructor has been diagnosed with olivopontocerebellar atrophy, a motor atrophy that has affected his speech and caused a steady decline in his faculty course evaluations (FCEs) for interactive courses. To give a more accurate picture, here the FCEs for this course at CMU, Allegheny, and another CMU course he taught from a previous semester are compared.
+The XP course at CMU was in the high twos, the Allegheny students rated the course in the low threes, and the course from the previous semester was in the low fours of a maximum of five in each question. The previous course was approximately equal to the CMU average and shows how much worse the instructor got over one semester. Of course, this could merely reveal a poorly designed and presented course, but evaluations of those topics were similar to the previous semester’s.
+Regardless, the Allegheny students seem to have liked this course better than the CMU students. Subjectively, the instructor considered the Allegheny students to be more qualified overall. Perhaps being smarter and not feeling left out are positives toward success. Unfortunately, the number of Allegheny students (eventually four) prevents statistically significant analysis of data.
+
+2.5 Future funding
+The same foundation that funded the virtual department mentioned above funds further experiments in virtual departments. If this experiment attracts enough interest among potential schools, further experiments can potentially obtain outside funding.
+
+3. Teaching XP at a distance
+This course was not a true test of distance education and XP, primarily since the syllabus was kept the same for both courses. However, the author has taught XP to more scattered students. In general, the toughest thing to do and the biggest strain on the technology is pair programming [6]. Everything else about a project the students worked around in the CMU/Allegheny course. Actually due to some schedule conflicts, pair programming was sometimes done while pairs were apart in the course described.
+Remote students would use Microsoft’s Netmeeting or now perhaps Web Arrow to enable them to see what the Driver was doing. Depending on the bandwidth, the Navigators would comment via the computers themselves, or telephone.
+
+4. Conclusion
+From the instructor’s viewpoint, the class successfully proved the idea of synchronous distance education for this topic. Even though he has experience in synchronous distributed classes, it was a decade ago. His recent experience was all in asynchronous courses.
+Aside from the more routine learning results, two Allegheny students collaborated with the instructors to prepare a publication on one aspect of the Allegheny team’s project. This is a very satisfying conclusion to the experiment. Learning goes on even after the course, based on ideas developed in the course.
+
+7. Appendix A
+Agile software development
+Computer Science 491 (Allegheny) and 395 (Carnegie Mellon) Instructors: JimTomayko and Greg Kapfhamer
+This course is a study of the development methods that guide the creation of software systems. Emphasis will be placed upon a comparative analysis of an increasingly popular lightweight software development approach called eXtreme Programming (XP). The fundamentals of eXtreme Programming, such as metaphor in requirements, pair programming, continuous verification, common ownership of code, and refactoring will be thoroughly examined. These techniques will be compared to more traditional software development methods that employ formal specification, inspection, independent verification and validation, common architectural styles, and patterns. (The addition of some of these to XP creates “XP Plus.”) An understanding of different software development approaches will be developed through the creation of large-scale software systems.
+Goals and objectives:
+To introduce the student to the software development methods that are commonly utilized by real world software development teams. To enable the student to make intelligent decisions concerning the selection and adaptation of software development processes.
+How does the course develop skills?
+The course develops the advanced skills that are needed for success in the diverse discipline of software development. For example, students will read original articles and books from leading software development practitioners in an attempt to define and understand different approaches to creating software. Also, students will collaborate to develop two large-scale software systems
+What means of evaluating students will be used?
+Students will be evaluated during class discussions, through the usage of in-class examinations, and accurately and faithfully maintaining metrics. Students will also be evaluated by the quality of the analysis, design, and implementation associated with the software systems that they develop. The grade that a student receives will also be influenced by his or her ability to work effectively in a team, as judged by the Instructor and the student's peers.
+The study of computer science leads to and requires the ability to analyze ideas, think logically, and to communicate ideas clearly and concisely. The introductory, advanced, and application classes offered by the Departments lay the foundation for students to become formidable computer scientists that can truly analyze, communicate, and solve problems with computers and software. From the advent of computing, software has played an important role in harnessing the power of computer hardware. Since the essence of the computer science discipline is the study of algorithms and their realization as computer programs, the study of the methods that guide the creation of software is central to the field. Students that have the ability to analyze, compare, and use different software development approaches will be better equipped to function as well-rounded computer scientists.
+Agile programming grading criteria
+1. Projects [35%]: the evaluation of agile methods for application to a specific project.
+2. Homework [20%]: A series of exercises to help learn portions of the methods. Homework will be graded either -, ÷, or +. A ‘-‘ means that you fall short of an acceptable answer, a ‘÷’ means that the answer is acceptable, and a ‘+’ means that your answer really impressed
+us positively [i.e. we did not think of it].
+3. Participation [10%]: An evaluation of the ability and willingness to knowledgeably
+participate in class discussions. Attendance is counted here. Please also see the About the instructor file under ‘Syllabus and Course Materials’ on the web site.
+Texts:
+[Beck00] Kent Beck, Extreme Programming Explained, Addison-Wesley, 2000.
+[Wake01] William Wake, Extreme Programming Explored, Addison-Wesley, 2001.
+Distributed via web site:
+[Tomayko02]James Tomayko, Extreme Programming Extended (selected chapters), manuscript, 2002.
+Highly recommended:
+Alistair Cockburn, Agile Software Development, Addison-Wesley, 2002. Sites to visit:
+http://xpdata.distance.cmu.edu/
+http://www.xprogramming.com/
+http://www.agilealliance.org/
+Dates (Readings are due and discussed on the day specified.) 14 January 2002: Course Mechanics [CMU]
+16 January 2002: Agile Methods and XP-Plus [Tomayko02] and Course Mechanics [Allegheny]
+21 January 2002: The Role of Risk and the Economics of Software Development [Beck00: Ch. 1-3]
+   23 January 2002: Getting a Grip on Software Development [Beck00: Ch. 4-6]
+28 January 2002: The Values and Basic Principles of XP [Beck00: Ch. 7-9]
+30 January 2002: Overview of XP [Beck00: Ch. 10-11]
+4 February 2002: Managing an XP Project [Beck00: Ch. 12-14]
+6 February 2002: The Planning Strategy and Development Strategy [Beck00: Ch. 15-16] 11 February 2002: The Design and Testing Strategy [Beck00: Ch. 17-18]
+13 February 2002: Adopting and Adapting XP [Beck00: Ch.19-20]
+18 February 2002: Lifecycle of XP and People Roles [Beck00: Ch. 21-22]
+20 February 2002: The Difficulties of XP [Beck00: Ch. 23-24]
+25 February 2002: When You Shouldn’t Use XP [Beck 00: Ch. 25-27]
+27 February 2002: Criticisms of XP [http://www.bad-managers.com/Features/soapbox/xp.shtml ]
+4 March 2002: XP I Project Reports
+6 March 2002: XP Plus I [Tomayko02]
+11 March 2002: XP Plus II [Tomayko02]
+13 March 2002: Writing Programs Using XP [Wake01, Ch. 1]
+16-24 March 2002: Allegheny Spring Break
+25 March 2002: Refactoring Revisited [Wake01, Ch. 2]
+27 March 2002: XP Team Practices [Wake01, Part 2 Introduction, Ch. 3]
+29 March-6 April: CMU Spring Break
+8 April 2002: Pair Programming [Wake01], Ch. 4 and http://www.pairprogramming.com/
+10 April 2002: Examination
+15 April 2002: Architecture and Metaphor [Wake01, Ch. 5 & 6]
+17 April 2002: Advanced Planning [Wake 01, Ch. 7 & 8]
+24 April 2002: The Typical Days of a Customer, Programmer, and Manager [Wake01, Ch 9 & Conclusion]
+  29 April 2002: Project Reports II
+
+8. Appendix B
+First project assignment
+We are giving you this assignment with the expectation that you will know little about the domain, thus making every team equal.
+First, divide into groups of five, being careful to choose people with similar schedules, so as to facilitate pair programming.
+Second, find the requirements for the problem in xpdata.distance.cmu.edu/papers/index.html [the paper on Problem Frames] Base your story development [p. 88 of Beck00] on the last iteration there. Decompose further if possible.
+Third, program a solution using XP while tracking the following metrics:
+1. Time on task, i.e. hours and minutes doing problem work.
+2. Time on course, i.e. all the time spent on the course, including readings and class.
+3. Defects, i.e. any failure noticed after the software is released from a pair to the team, OR, during integration test.
+4. Total lines of code, counting comments, i.e. as the project progresses and at the end of the project.
+5. Number of objects, for the same intervals.
+#3, 4, and 5 are zero for a while.
+Please report all five numbers each weekend to the instructor via e-mail.
+Deliverables (note that these are the due dates; their use to the project is often sooner):
+21 January: Stories and estimates to complete each story. 28 January: The Metaphor and the Coding Standard
+4 February: Cycle I code
+11 February: Revised stories and estimates for Cycle II 18 February: Cycle II code
+25 February: Revised stories and estimates for Cycle III
+4 March: Cycle III code; assessment of XP as a method, including utility, appropriateness, and ease of use. A final evaluation of the metrics.
+ I recommend establishing a web site for the project.

@@ -1,0 +1,150 @@
+Collaboration and Human Factors in Software Development Teaching Agile Methodologies based on Industrial Insight
+
+Abstract— Recent studies show that many companies have successfully adopted agile methodologies. In this paper the authors present results of their quantitative and qualitative studies, showing that only experienced companies apply agile collaboration practices properly. The studies also suggest that successful professional agile teams tend to use more collaboration practices and consciously live the agile values. This leads to the conclusion that applying the collaborative practices and living the agile values is difficult. Thus we educators should pay special attention to teaching these practices and values in courses on agile software development. This paper presents how agile collaboration is being taught in the classroom in a fourth semester software engineering module and explains the underlying assumptions. We use an agile coaching game as introduction to Scrum and discuss the mechanics of agile teams in the classroom. We present the setup of a hands-on agile student project with large student teams and the observations we made. Last but not least, we show and discuss how modern online collaboration tools act as enablers for agile collaboration in the classroom.
+
+Keywords— Software Development; Agile; Collaboration; Collaboration tool;.
+
+I. INTRODUCTION
+Agile software development has become a mainstream approach in software project management as recent studies show [1], [2]. With this trend, also many less experienced non-expert teams have started applying agile approaches. The authors have conducted several studies, which show that especially collaborative practices like pair programming, daily stand-up meetings and retrospectives are rarely applied by less- experienced agile teams. Usage gradually grows over time, however, with increasing experience in agile development. The studies show that agile methodologies are of high practical relevance. Furthermore, it appears that there is a high demand for well-educated software engineers in the agile domain. Another phenomenon is distributed software development: near- shore and offshore teams have become common practice. These distributed teams make collaboration more challenging. And it becomes more and more important to work with the right collaboration tools.
+The executed quantitative and qualitative studies give a deep insight into the current state-of-the-art agile development in practice and the still open challenges. The studies also deliver valuable input for the further evolution of software engineering education. Particularly, they shed some light on the questions:
+1.	 Which are the state-of-the-art practices in industry? 
+2.	 Which competences are needed in industry? 
+3.	 Which competences are lacking in industry 
+
+Based on the results, the authors, who have been teaching software engineering for more than a decade and agile methods since 2006, started developing a new software engineering module. It especially addresses agile methodologies with a much higher emphasis on teaching collaboration practices and agile values. Special attention is paid to integrating Internet based collaboration tools, as enablers for software development in distributed teams. In this paper the authors present this new curriculum approach, describe their first experiences and discuss possible further improvements.
+The rest of the paper is structured as follows: Section two discusses related work. Section three presents results from the various studies and their impact on the new module. Section four gives an overview of the new Software Engineering module. Section five presents how collaboration and agile values are taught and practiced in the classroom. The usage and benefits of appropriate collaboration tools are discussed. Section six evaluates and discusses our observations, followed by final conclusions and an outlook on the ongoing evolution of the curriculum.
+
+
+IV. SOFTWARE ENGINEERING MODULE
+In fall 2013, the new Computer Science studies at the Zurich University of Applied Sciences were started. For this, the curriculum was updated and a lot of content newly developed. In this paper we will have a closer look at the lectures, labs and students projects in the software engineering module of the fourth semester.
+Table I gives an overview of the first two years and the assigned ETCS1 credits. In the first and second semester, the focus is on object-oriented programming and plan-driven methodologies. In the third semester the focus is on iterative development with Unified Process [13]. In the fourth semester, the focus is on agile methodologies: Scrum [12] and eXtreme Programming (XP) [14]. The Agile Manifesto [16] is discussed in the lecture and the students are introduced to agile software development, i.e. Scrum. The students learn about Continuous Integration (CI) and how to configure a CI-Server. The importance of automatic testing is reinforced; test-driven development (TDD) discussed and applied. In the Student Project, the students develop a software application in a large Scrum team. The educational objective of the fourth semester is to sum up and master the technical and collaboration practices as presented in Fig 2.
+
+V. COLLABORATION IN THE CLASSROOM
+One of the key differences between agile and plan-driven software development methodologies is the emphasis on collaboration and feedback. In Scrum, the predominant agile methodology, the collaboration practices and values are central. Therefore, it is important that the students learn to apply them in a realistic classroom setup.
+In the new software development module this is done in three-steps:
+1. Students learn the theory of Scrum and XP
+2. Students play the Scrum Lego City Game as first hands-on experience.
+3. Students execute an agile software development project over one whole semester in “real” Scrum teams of five to nine members.
+
+A. Scrum Lego City Game
+As a hands-on introduction to Scrum, the authors usually play the Scrum Lego City Game [17] with the students. Over the years, we have played this game many times. It has always been very educational, interesting and a lot of fun. The game addresses every role, ceremony and Scrum principle: Starting with the product vision, prioritizing the product backlog, making the sprint planning, developing the Lego city (product) and ending with the Sprint Review meeting and sprint retrospective. The game takes between two and three hours and is played in teams of 5 to 9 members. The lecturer acts as customer - or Product Owner in Scrum terminology - and guides the teams building the city with Lego bricks after the product visions.
+Scrum is all about teamwork, respecting people, cooperation, understanding and productivity. The Scrum Lego City Game is designed to make students understand and “feel” how and why Scrum works. The game promotes collaboration and uses as much as possible of what has been learned about Scrum in theory.
+
+B. Classroom Setup for Agile Collaboration
+1) Maturity leads to Collaboration
+In [20] it was found that in agile software development, experience leads to collaboration. It could also be shown that successful professional agile teams tend to use more collaboration practices. Unfortunately, this transition to more and better collaboration tends to take years. This raises two questions: What are the barriers and can this transition to maturity be accelerated?
+
+OVERVIEW OF SOFTWARE ENGINEERING MODULES
+  Lecture/Lab
+Programming 1 (OOP) 4 ETCS
+Programming 2 (OOP) 4 ETCS
+Iterative SW Development 4 ETCS
+Agile SW Development 4 ETCS
+Student Project
+Plan-Driven Dev. 2 ETCS
+Plan-Driven Dev. 4 ETCS
+Iterative Dev. with Unified Process
+4 ETCS
+Scrum and eXtreme Programming
+4 ETCS
+            1 ECTS = European Credit Transfer System: Uniform European evaluation system of performance criteria as part of the Bologna Reform. Around 30 hours of student work corresponds to one credit.
+
+TABLE II. BARRIERS AND DIFFICULTIES (COMP = IT- COMPANIES, PROF = IT- PROFESSIONALS)
+  Ability to change organizational culture Availability of personnel with necessary skills
+Customer collaboration
+Project complexity or size
+General resistance to change
+Lack of management support Budget constraints
+Confidence in ability to scale agile
+Comp Prof 29% 37%
+18% 14% 16% 14% 22% 12% 4% 9% 3% 6% 5% 4% 1% 3%
+   
+Table II gives some hints to the first question. In the Swiss Agile Study [1], the participants were asked about the top barrier in their company. (Item: “What are the current barriers and difficulties to further adopt agile software development in your company?”). As can be seen, culture, skills and customers are the top barriers
+In the following paragraphs, we present answers to the second question.
+2) Educational Software Development Project
+In an educational software project, we are in a privileged situation because all the barriers listed in Table II are either irrelevant or can be minimized by choosing the project setup well. Still, professional and educational projects differ in many ways and we have to be careful not to end up with mimicry.
+Some of the advantages in an educational setup are: 
+
+•	Students can choose the project vision together with the coach 
+•	 The project has a small scope and no “real” budget constraints 
+•	 Students can collaborate with an “ideal” customer since the coach or a student acts as customer and is on-site 
+•	 Students can apply all technical and collaboration practices 
+•	 Students can experience agile values without worrying about organizational culture 
+ Students neither have to work with legacy code nor worry about the intricacies of a production environment
+  Students neither have to work with legacy code nor worry about the intricacies of a production environment
+Some of the impediments in an educational setup are:
+•	Students usually only have one to two project meetings per week 
+•	 Students only work sporadically on the project 
+  Students usually only have one to two project meetings per week  Students only work sporadically on the project
+Students often work on the project at different times
+Students are not co-located, i.e. the daily stand-up meeting is not feasible
+Students usually are less experienced
+
+2 The roles of Product Owner and Scrum Master are not included in this count unless they are also completing the work of the Sprint Backlog.
+
+In the classroom, it is possible to set up an environment with little or no impediments, which makes this transition much easier and faster. The remainder of this chapter describes the setup of the student projects and the experience made in respect to agile project management and collaboration practices. Table III gives the outline of the complete agile student projects.
+a) Scrum
+We chose Scrum [12] as methodology because of the good experiences we had made in industry and research projects. Further, Scrum is the most widely used agile methodology [1] in Switzerland. For the educational development project, Scrum was adapted to fit the special requirements in the classroom.
+b) Optimal Student Team Size
+Optimal development team size is small enough to remain agile and large enough to complete significant work with an iteration or Sprint. In Scrum the recommendation is seven, plus or minus two2 [12]. Fewer than five team members decrease interaction and collaboration, which might result in smaller productivity. Smaller teams might also encounter skill constraints. More than nine members require too much coordination. Large development teams generate too much complexity for an empirical process, like Scrum, to manage.
+What about the optimal size of student teams? The authors had best results when the team size was at the upper limit. In smaller student teams there is a risk that the students do not realize the necessity of proper project management. Much too often, project management is seen as an overhead and, in the worst case, only applied because the coach says so. In properly sized teams, project management is crucial for success. Another benefit of larger teams is, that the students get more work done, which results in more realistic software applications. In our experience optimal student team size is between seven and nine members.
+c) Automatic Testing
+Next to team size, we demand that the teams do rigorous automatic testing. Automatic testing is difficult, but in combination with refactoring it has a profound effect on the code quality. It is important that the students have a test concept and test environment ready before they actually start coding. Therefore we introduced a “Sprint Zero” before the official project start. The goal of Sprint Zero is simple: All teams are able to do automatic testing. The students have to implement a complete test case, which demonstrates their ability to test the application from end-to-end. At the end of every regular Sprint, code coverage is inspected and discussed with the students.
+         
+TABLE III.
+Before start of semester
+Week 1 (Kick-off meeting)
+ Week 2 (Sprint 0)
+ Sprint 0: Students set up complete automatic testing and building environment (Walking Skeleton) Introduction to IT-infrastructure
+Week 3
+Week 4 (Project start: Sprint 1)
+Week 6 – 14 (Sprint 1 - 5) Every even week
+ Sprint Review & Sprint Retrospective Planning meeting of new Sprint Development of application
+Week 16
+OUTLINE OF AGILE STUDENT PROJECTS
+Students and faculty are informed about the project module and asked to send in project ideas.
+Kick-off Meeting. Presentation and election of best-suited project ideas. Composition of student teams
+Sprint 0: Students set up complete automatic testing and building environment (Walking Skeleton) Demonstration of testing and building environment (Walking Skeleton) Sprint and Release Planning
+Final presentation of application End of project
+
+d) Continuous Integration (CI)
+Continuous Integration is seen as an absolute must by many professionals to be able to deliver software with high frequency. For the student projects, the concept of automatic builds and CI are introduced. Every team uses Maven [21] and Jenkins [22] to build and integrate their software.
+e) Clean Code and Craftsmanship
+The idea of highlighting the importance of software development practice was popularized in Clean Code: A Handbook of Agile Software Craftsmanship [11]. The author introduces the disciplines, techniques, tools, and practices of software craftsmanship. Craftsmanship is much more than a technique: It is about attitude. Starting in the first semester, the students are advised to follow the Clean Code guidelines. The authors have observed that following and discussing these guidelines has a profound impact on the quality and design of the code base.
+f) Sprint Meetings
+At the end of every Sprint, the coach attends both the Sprint Review and Sprint Retrospective meetings of every student team. In these meetings, the coach learns whether the project is on track or not.
+In the beginning of the new Sprint, the coach attends the Sprint planning meeting. In this meeting, the coach acts as the Product Owner. As Product Owner, the coach can steer the project in the proper direction.
+All three meetings usually take place on the same day. The Sprint Review takes about 30 minutes, the Sprint retrospective about 15 minutes and the Sprint planning, depending whether User Stories have to be estimated or not, between 15 and 45 minutes. These meetings are an excellent occasion to get a good overview of all projects and therefore the coach should attend all of them.
+g) Final Presentation
+At the end of the project module, all the teams present their application in the plenum. This is a great opportunity for all teams to present their achievements. The presentation takes about 20 minutes and consists of the project vision, architecture and design of the application as well as a demonstration.
+
+C. Internet simplifies Collaboration
+In the educational student project, the team is mostly not co- located. Additionally, the students often work at different times. This makes collaboration difficult because face-to-face communication is not easily possible. Furthermore, the teams cannot use physical task boards either. Fortunately, there are online task boards, which can be a good substitute for physical ones.
+In this chapter we will present some collaboration tools,
+which help to circumvent the impediments in “distributed”
+student teams.
+An agile project rapidly and reliably produces new know- how and new knowledge. Good collaboration tools make the exchange of new know-how and new knowledge between the single team members and the coach possible. Without the Internet and its online collaboration tools, distributed student teams would not be feasible. The tools simplify collaboration among students and make progress visible for the coach. The same is true for problems and difficulties.
+1) Jenkins CI-Server
+Jenkins [22] is an open source continuous integration server. It provides immediate feedback of the build status and the overall project progress, both to the students and the coach.
+2) GIT and GitHub
+Git [23] is a distributed code versioning system (CVS) designed to handle everything from small to very large projects with speed and efficiency. Its workflow make it particularly well suited for distributed software development teams. Git is the successor of SVN (subversion) and is rapidly becoming the most widely used CVS.
+GitHub [24] is a web-based Git repository, which is often used for hosting open-source software projects. GitHub provides several collaboration features such as bug tracking, feature requests, task management and wikis for every project.
+3) Trello
+Trello is a very simple collaboration tool [25] for all kind of projects. Its main advantage is its simplicity. Trello runs in the web browser and almost on any mobile device. It consists of a task board that is very similar to a physical Scrum board. Since it is a web application, no software installation is needed.
+In the student project, Trello is used to manage the User Stories and the associated tasks. Trello is a good, lightweight alternative to professional agile tools like JIRA [26]. By looking at Trello, the coach immediately knows what is going on in the different projects.
+4) Jira / TFS
+JIRA is a widely used professional issue tracking system from the company Atlassian [26]. It is a web-based system which also supports management of User Stories and task. The agile version (JIRA Agile) provides a digital task board. JIRA provides various customizable workflows for task management, which are also used at the agile task board. Combining JIRA issues with Git allows to realize traceability of issues, i.e. users can trace which code commits in GIT belong to which issues.
+
+VI. EVALUATION
+A systematic evaluation of the new software engineering module has not yet been executed for the first round. This evaluation will be carried out after the next round. Instead we present our first experiences and feedback from the students. In the first round, we had a total of 45 full-time students. For the student project, the students were divided in five Scrum teams. At the time of writing, we are in the middle of the second round with 28 part-time students.
+The module’s highlight has indisputably been the agile student project. This is true for both students and coach. The developed application exceeded the expectations in scope, quality and student commitment. The students were initially unfamiliar with working together in large Scrum teams, however they soon got accustomed to it. This manifested itself in an increased productivity and creativity. We observed that the coach’s experience in agile software development is important for the outcome. Paying special attention to technical practices like automatic unit tests and clean code has had a positive effect on design, code quality and documentation.
+The coordination of the software development lecture and the student project was reported to be excellent. The students liked the combination of theory and practice. Next some written statements3 from the software development lecture and student project in the fourth semester. The students were asked what they liked best: “It’s great that we do Agile..”, “Practical relevance of the topics presented”, “Good coordination of lecture and project module”, “Best project module so far..”, “I liked that we could choose the projects ourselves..”, “Scrum!!”.
+From part-time students we often get feedback that they can benefit from the agile practices directly in their job.
+Scrum in combination with the online collaboration tools made it possible for the coach to maintain the overview of all student projects. Coaching the projects to the desired outcome and assessing the Scrum teams was possible in an efficient and transparent manner. With respect to the evaluation and assessment of the individual student, it is different. Assessing individual team member is a contradiction to the agile values. Therefore, individual grades versus team grades should be considered very carefully. In the first round, all the students of a Scrum team got the same grades.
+The team setup is critical with respect to finding a well- balanced team with the necessary level of knowhow, motivation and commitment. Other critical issues are the roles of Product Owner and Scrum Master. We let the students themselves overtake these roles. But they usually lack the necessary experience to fulfill the requirements to these roles and should therefore be specially trained by the coach.
+
+VII. CONCLUSION AND FURTHER WORK
+Collaboration between team members, customers, users and stakeholders is a very important part of agile software development. Maturity leads to collaboration; i.e. mature agile teams apply more collaboration practices. Therefore, it is important that the students learn about collaboration practices and how to live them. This is best realized in a “real” agile project.
+This paper discusses how educational projects can be setup in such a way that students can experience the importance of collaboration. The Internet and its plethora of online tools act as an enabler of collaboration in agile educational software projects. The benefits of online collaboration tools make it possible for the lecturer to coach and steer student software development projects and, last but not least, assess the students. The authors are convinced, that software engineering education benefits significantly by embracing the modern collaboration tools the Internet has made available.
+
+3 The statements are translated from German. The statements are taken from the official evaluation system. For the new Computer Science studies, all new lectures and modules were evaluated systematically.

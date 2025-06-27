@@ -1,0 +1,133 @@
+Teaching Agile Principles and Software Engineering Concepts through Real-Life Projects
+
+Abstract— Today employees in IT related areas are expected to know the newest technologies and to be able to apply it independently in their projects. This requires a deeper understanding and additional competences that are not taught in lectures or addressed by Project Based Learning (PBL) approaches. In this paper, an approach to teach software engineering concepts using the Scrum framework in real life projects is presented. It extends the PBL concept with respect to competences. Feedback from students, customers as well as our own experience confirm the benefits of the presented approach.
+
+Keywords— Project Based Learning, Agile Methods, Scrum, Software Engineering, Coaching, Student Self Assessment
+
+
+I. INTRODUCTION
+The topics and the content in today’s bachelor’s degree programs, especially in computer science are varying while lifetime of technologies is getting shorter, e.g. Computer replacement is necessary every 5 years already [14]. Students are confronted with a high amount of information. While on one hand the competence levels of the students are heterogeneous, on the other hand, professors and lecturers have to teach subjects fast and effectively. Project based learning (PBL) is an accepted and valuable didactic approach that builds up knowledge using a constructivist learning approach [4] and facilitates the development of key competences required by future employers [11]. It deepens understanding and improves the ability to applying knowledge. But, does it help the students building up competences?
+The definition of competence depends of the area it is defined for. As an example in the Business Dictionary [5] it is described as „a cluster of related abilities, commitments, knowledge, and skills that enable a person (or an organization) to act effectively in a job or situation“. In our opinion the definition from [5] fits well with our association of this term. This links to the skills that enable someone to solve problems in a variety of situations. The „sufficiency of knowledge“ describes the situation very well.
+Beside technical and functional knowledge acquired in the curriculum of computer science or business information systems studies, working in projects with varying topics requires - from our point of view - the following competences:
+• Being able to understand the customer requirements and develop (IT) solutions that satisfy the customer
+• Negotiating realistic requirements and project conditions
+• Planning and controlling projects with fixed deadlines and budget
+• Recognizing problems early and handling escalations appropriately
+• Being able to work in a (bigger) team with members at different sites
+• Being able to interact with people from different cultures
+• Result orientation and quality awareness
+In addition, the level of commitment is important as well –
+meaning the “wanting to do it”.
+Mapping these ideas to student projects, requires more than standard PBL to build up these competences. We want the students to improve their skills over the time of the project and hence we need them to be open and motivated. Following [13] the factors for motivation are freedom, purpose and expertise.
+• Purpose: We select projects that are either focusing on leading edge technology, current trends or with high social value. We ask the partner companies to provide projects that are of real interest and provide real values. Therefore, it is pretty obvious for the students to see the purpose and the value of the project, which typically leads to a high engagement level.
+• Freedom: Students are free to choose from a portfolio of different projects. They are also free to choose their team. Of course, there are certain limitations to that freedom, but in the past, we were often able to respect their choices.
+During the project, students work together as self- organized teams: They chose an appropriate project management and team coordination process and they are only asked to use some core tools that we need to monitor the projects.
+• Expertise: The students will obviously run into problems or fail delivering expected results several times during the project. But we provide a culture, where failing is not a problem – students do not get judged if they do something wrong – we encourage them to learn from the errors and improve their work. As professors, we act as coaches rather than as grading instances so that the students see and feel, how their skills improve.
+The module International Business Solution Project (IBSP) in the 6th semester of our Business Information System Bachelor’s degree program implements our extended PBL concept. We’ve successfully run the module for more than 8 years implementing more than 100 IT-related projects. It deepens the students’ understanding of formerly “pure” knowledge, it shows best practices and improves the students’ ability to apply this knowledge.
+All the stakeholders (students, professors, and companies) are impressed by the results. This paper outlines, why our approach is successful, and helpful for agile projects in the software development domain.
+
+
+II. HOW DID WE IMPLEMENT IT?
+Our approach to PBL is specific with respect to project topics: the definition of teams, the way how students are educated in Scrum, and our framework to support the students during their projects.
+
+A. Project Topics
+In order to make the projects more relevant, in the sense that the results are used after the project, real customers were incorporated. They bring in requirements from industry and present their topics during a kick-off meeting. In advance, we do a pre-selection of customers and topics so that topics from different industries and different companies are available. These can originate from big players, small to medium sized companies and even start-ups. A project has a capacity of round about 1000 person-hours, which allows the implementation of complex topics.
+Approaches with standard solutions, e.g. implementations of an existing specification or a standard 3-tier web architecture, are avoided. The application of technology in an innovative context, e.g. with mobile devices, cloud computing, machine learning, containers like Docker, is an important aim of these projects. This helps students as well as supervisors to get hands-on-experience with the latest technologies.
+
+B. Teams
+The students apply for projects, topics, or customers resp. Then, the supervisors define teams consisting of 5-7 persons.
+Literature on effective teams confirms teams up to 5 persons [16]. This process is based on the preferences listed by students. During the group assignment process, supervisors take into consideration the abilities of each student making sure that each student group has the necessary abilities to be successful. The project teams act self-responsible under periodic coaching from supervisors.
+
+C. SCRUM Education
+Students are provided with a one-day introduction to Scrum before the projects start. In the first phase of a project the students have to create a proposal that is presented to the customers, who – in the project game – then will choose the team as a contractor. The definition of a useful proposal requires the definition of a clear aim of the project as well as a backlog of requirements with an estimation and prioritization of the relevant user stories. In order to achieve this goal, students receive another Scrum training day with focus on user stories, planning and estimations. In addition, the Scrum coach (an external professional Agile coach) moderates a retrospective meeting, without attendance of the supervisors. In this structure, the student’s project is used as the real-life example of a Scrum project, which makes the Scrum training very effective.
+
+D. Structure of the module, tools and methods
+Our approach is supported by an infrastructure consisting of different tools and guide-lines in place. The module starts with a kick-off where customers introduce their topics, students apply for their preferred topics and the supervisors define the teams. After 3 weeks, the students have to provide a project proposal which has to be presented and defended face-to-face against customer comments. The projects are run in sprints, with a final presentation and the hand-over of the results.
+There are two distinguished roles: Product Owner (the project lead being also responsible for requirements) and Scrum Master (responsible for quality topics). Roles of the students are changing, so that every student has the possibility to experience different roles. Depending on the type of the project there will be additional roles like developer, software architect or tester.
+The teams are requested to provide status reports weekly as well as report their working hours together with the achieved results. Two peer reviews are conducted at mid-term and at the end of the term. The aim is to provide feedback about how students and their work are perceived from their team.
+As the students typically lack knowledge about business and development processes in companies, additional lectures with topics not covered in the curriculum have been introduced. Typical examples are, e.g. sales topics as preparation of proposal writing, self-marketing, but also technical topics provided on specific project requirements like geo-information or computer graphics.
+A custom portal that covers the project activities has been developed. It provides a database with information on the various projects that have been carried out during the last years. The module has been running for 6 years now. During this time, the needed infrastructure has been built up step by step based on requirements and experience from past projects.
+
+E. Grading
+The grading in such a specific module is critical as it is hard to track the personal contributions of each team member. As a result, a specific grading scheme based on six criteria was developed. These were derived from our personal experience as team leaders or managers in the “real” world, as well as from current studies, e.g. [11], about the requested skills of employees in the IT area.
+• Technical expertise – this criterion reflects the ability to adapt and enhance the technical skills students should have developed during their studies and during the project.
+• Functional and domain expertise – this represents the ability and the skills of the students when it comes to analyzing, understanding and modeling or designing problems and solutions in the customers’ domain.
+• Quality Focus – do students do their best to achieve high quality results? What kind of actions are performed to ensure quality, learn from errors and systematically enhance the quality of the produced results – be it documents or code.
+• Communication Skills – this criterion reflects the need of working together closely and communicating efficiently, politely and well-structured with colleagues, customers and coaches.
+• Teamwork and team focus – most of nowadays work heavily depends on joint work with colleagues within a team or with other teams. In that sense, students have to show, how they perform within a team, special focus being set on helping each other, being reliable, working together rather than working alone etc. This is where agile methods of software development such as Scrum or Lean are needed.
+• Motivation and Engagement – is students’ willingness to contribute to the success of the project in an adequate manner.
+These criteria were made transparent to students. They were asked to evaluate themselves and their team mates twice during the project. The results of these reflections and peer ratings are discussed in section V-C.
+In individual interviews at the end of the semester, students present their achievement and results in a discussion with their supervisors. They have to emphasize contributions that they are especially proud of. In addition to these, supervisors take into consideration quality, technical and functional complexity of student submissions when defining personal grades with consensus.
+Joint grading is done by at least two professors. Student grades are discussed and have to be agreed on by all the supervisors.
+
+
+III. APPLIED SOFTWARE ENGINEERING
+One focus of the course is to let students learn how to practice software engineering in a real-life context. By the time they start the course, they should already know and have first experiences in the following areas:
+• Running a Scrum project with several sprints and increments requires continuous feedback on sprint results and adaptations of the current plan [2]. Continuous delivery is established in software development projects to support incremental development and automate software delivery.
+• Automated testing or even a test-driven development approach together with automated builds and deployment is crucial to continuously deliver software increments with manageable testing efforts [8]. Bringing in a new software increment requires testing of the new as well as well as the existing increments to show that the code is still valid. Without automation, testing efforts would increase with every increment significantly reducing the development capacity of sprints. So, the students experience in their project the continuous integration concept.
+• The technologies and programming languages depend on the customer’s environment. Our lectures on Programming, Software Architectures and Software Engineering are taught using C#, Java and JavaScript. Customers are usually flexible to accept student’s preferences. Although, most of the software development is done in Java, some project teams or customers implement in other languages.
+Since our customers often strive for gathering first experiences with new technologies, students work with state-of-the art tools like, e.g., Docker containers, Amazon AWS, Microsoft Azure cloud services, or Jenkins during integration processes. The goal of the module is to make students practice these software engineering aspects in different challenging projects together as a team.
+The aims listed in the module are characterized by a constructive alignment [1] of the formative and the summative methods used.
+
+
+IV. THEORETICAL CONSIDERATIONS
+One of the first issues to be addressed is the decision regarding the type of approach to be used to teach students in our context. There are many non-constructivist approaches as [15] that identify the problem as “an adjustable delivery process”, which has to be “tuned” to an individual’s capabilities”. However, such approaches cannot be used to construct knowledge in a Computer Science environment, as the solutions proposed are “shorter lectures, frequent tests and self-assessment schemes” [15]. They cannot help to build up capabilities and soft-skills from complementary areas as project management that are additionally needed in software projects.
+Constructivist approaches combined with Problem Based Learning for teaching computer science are a standard approach as mentioned in [9] and [10]. Our approach uses application, interaction and interpretation for sustainable knowledge co-creation as suggested in [6].
+For a first evaluation with N=32 students, the results from different sources were identified and discussed similar to the method of triangulation [7]. The three sources consisted of: the evaluation of a two-stage formative peer review feedback [17], a student evaluation of the module including the way it was taught as well as the reflections of the lecturing staff that was collected in a blog. Thus, the mix of quantitative and qualitative methods helps to evaluate the results.
+Student peer assessments are considered to raise awareness about the quality of their contributions [17]. Knowing the students’ perceptions can differ [3], it makes sense to introduce an element of formative feedback by supervisors which is based on the results of peer assessment. This helps to align student perception with the desired alignment.
+Student feedback on modules and the way it was taught is considered to be a good method of evaluation [3]. It is known that module/course evaluation is usually considered to be biased by different elements e.g. by an inappropriate selection of the attending students [12]. However, research still shows that the results of such an evaluation can still be considered as a good average for evaluation.
+During the project, several ideas came up that were logged and discussed by the involved Professors. This is listed below as our experience. These reflections help to identify problems, identify possible solutions and improve the module. They have been used as qualitative data as often suggested by the Triangulation method [7].
+
+
+V. EXPERIENCES FROM 8 YEARS PROJECTS
+Students learn to apply an agile approach in a context being close to real-life. Supervisors provide a high level of safety by closely supervising the student project teams, e.g. they attend meetings with the customer and answer the various questions that come up during a project.
+Continuous delivery with a continuous integration approach is a natural fit for agile projects. Students deepen over the sprints their understanding, improve their testing techniques during the development and optimize their build and deployment infrastructure. They will understand very fast the need and the benefit of automated tests.
+With real-life customer, they feel the pressure of expected continuous delivery, which makes the experiences very realistic and motivates the students to deliver results in high quality. Since students work on a topic they’ve chosen, they will decide on the project scope based on their own estimations. As a consequence, their commitment is usually very high.
+The complexity of our projects is high, i.e. teams usually have a capacity of about 1000 person-hours. Critical team situations may occur, e.g. conflicts between team members or, escalations because of delayed delivery. All these have to be handled by students. The project supervisors provide advice and support the teams by coaching. As a consequence, the students learn efficient ways of communication and also learn to use strategies for de-escalation.
+In order to evaluate the quality of the lecture and to determine if this is the right approach, we use a combination of three different views in addition to our own perception:
+• The former student’s perspective, which focuses on what former students that passed the module think or say, e.g. after they already left university.
+• The customer’s perspective, which reflects how the real world sees the students’ improvements and learnings.
+• The current student’s reflection on their own performance and the feedback to and from their team mates with respect to the criteria discussed above.
+• Supervisors regularly reflect on the progress of the project. In retrospective meetings at the end of term problems and solutions are identified, reflected and documented in a blog. In this way they live the same Scrum principles that are taught to students.
+
+A. Student’s Perspective
+We observe that students appreciate that kind of learning method in a variety of ways:
+• Alumni students become customers.
+• Students promote the course during their thesis semester
+in their companies.
+• Exchange students come to our University because of this course.
+Before the project, the students are nervous because of the challenges but also feverishly look forward to the project because of the fellow student’s stories.
+Students experience the course to be very intensive, because they have to deliver continuously, and they have to deal with expectations of customers that are instructed to behave like real customers.
+During the module, students recognize their weak spots, get feedback from peers, supervisors, and customers and are very motivated to improve. They know, that they are allowed and are even encouraged to make mistakes and hence learn important lessons.
+
+B. Customer’s Perspective
+Also, from the outside perspective, the responses to that learning style are very positive:
+• Industry partners are enthusiastic about the module design and state that they missed this during their studies.
+• Companies are applying for projects repeatedly.
+• The counterparts in the companies are very dedicated, support the student teams with advice and share their experience.
+• The companies use the results in sales cases, for internal promotions, and even run software solutions productively.
+
+C. Peer and Self Reflection Results
+As already mentioned above, students were asked twice during the project to reflect and estimate their own performance regarding the grading criteria discussed above. In addition, they were asked to give feedback to their team mates on their performance.
+This self-reflection and peer feedback was introduced to force students to reflect about how they are preforming, to show them what their strengths and weaknesses are and how they could or should improve with respect to the final grading.
+It turned out that peer feedback had to be given by the coaches, especially when the mood in the team is not too good, in order to avoid escalations. Hence, twice in the project, each student participates in a personal interview, where she or he reflects on the categories mentioned. Students receive the feedback from the team as well as the feedback of the professor coaching the team.
+In most cases, there is a good correlation between self- reflection and peer feedback. However, there are also many cases, where the self-perception differs from that of the team mates. In these cases, the coach has to work with the student and show ways or methods, how that situation can be improved.
+In the course, we collect anonymized data containing self- reflection and peer feedback. Looking at that data lead to interesting observations:
+Figure 1 and Figure 2 show the results of the two evaluation rounds during one term, containing data of 32 students organized in 7 teams. The scale has been selected in such a way that a value of 200 means, the according skill is assumed to be very good, while a value of 100 means that it should be improved since there is poor performance.
+
+Both figures show, that during the second evaluation, all the skills improve and since this is not only a result of the self- reflection (“I’m getting better at it!”) but also of the team feedback (“She/he is performing better!”), this shows that the concept of this formative element helps student to improve their skills.
+This also correlates with interviews with the customers that work with the team and the grades given by the professors.
+These results suggest that the biggest improvement has been achieved in the area of soft skills – communication and team-orientation, as well as the commitment to the project.
+
+D. Students’ Evaluation of the Module
+In order to ensure the quality of courses, the university has implemented a course evaluation process, where all the courses and all the professors and supervisors are rated by the students.
+Student-feedback always rates the module clearly better than the university’s and the department’s average. And from the comments and statements given by students, e.g., “the close cooperation with the customer facilitates many insights and important experiences for the future job.” or “gaining experience as in the IBSP wouldn’t have been possible in standard lectures.” It is clear that students understand and see the practical and professional impact of this module.
+A qualitative evaluation of student’s project experience shows that they always emphasize the substantial knowhow they gained. They appreciate the role of the professors as coaches rather than as lecturers, which is confirmed by literature to be a better teaching approach [1].
+On the other hand, the evaluation results also show, that the projects are very intensive, and the students perceive to have a very high workload. Although, the students’ work reports show that they are below the effort corresponding to the 10 ECTS of the module.
+
+
+VI. CONCLUSION AND FUTURE WORK
+This paper describes a project-based learning approach for teaching software engineering concepts in which students are coached rather than taught in a classical manner. Qualitative observations as well as results based on quantitative data were illustrated and discussed. All these suggest that students improved their soft and technical skills during this module.
+The module has already gained high visibility in the Karlsruhe area and beyond. Some of the results are used in the customer’s production environment; various have been used for sales and other showcases. The comments of customers show their satisfaction with the results of our approach, e.g., “it was impressive how motivated, structured, goal- and result- oriented students performed in the project.” or “students convinced with high motivation [...] and especially with the flexibility of their Scrum approach.” They also emphasize the good cooperation and organization, e.g., “The cooperation of students, professors and our company was exemplary.”
+The IBSP-module has already been taught with international partners in Sweden (Linnaeus University Växjö), Ireland (Cork Institute of Technology) and Great Britain (Plymouth University). Currently, about 25% of our projects are international projects. Employers nowadays expect intercultural competencies and experience in international set- ups. These requirements are addressed in our new international Bachelor’s Program International IT Business where the International Business Solution Project is also part of. The number of international projects is expected to raise to more than 50% in the next years.
+

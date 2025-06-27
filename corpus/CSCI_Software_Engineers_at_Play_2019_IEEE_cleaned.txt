@@ -1,0 +1,142 @@
+Software Engineers at Play
+
+Abstract— Active learning helps students to retain the course material and apply it to the real world when needed. Involving games in teaching has gained much attention over the past few years. Educational games have always helped students by promoting participation and active learning. It has helped them by motivating and bringing out the best ideas in them in order to understand a skill or a concept. It is an emerging pedagogy. This study discusses how games can help classroom teaching. Also, how the concepts that are taught through games can be used to solve real world problems. Agile software development has been taught to graduate students in the Software Engineering program using games. The games used in this study are the ones which are also used in the software industry to teach employees about Agile framework. The results of the study and student feedbacks are presented in this paper.
+
+Keywords— Games, Learning, Agile techniques, Classroom, Mixed pedagogy, Self-study, Real Life Examples
+
+I. INTRODUCTION
+Traditional teaching is called “teacher directed learning” where the teacher is the leader and students only follow the instructions of the teacher. Students participation is negligible in this type of learning. In such traditional style of learning, students may not completely understand the concepts due to little or no participation [1]. This develops ambiguous understanding of the concepts. Teachers play a very important role in students’ lives and student participation is also required to learn the skills. Inculcating games in teaching helps students to participate actively in the classroom. It brings out the best among them and in a way develops interpersonal skills. Game-based learning is one of the emerging research topics because of its several advantages over traditional type of learning. This type of learning helps students to be motivated and provides several opportunities that the traditional learning normally does not offer [2].
+Since the introduction of Agile Software Development in 2001, it has gained a lot of popularity and success in the software industry [3]. Industries have switched from the traditional way of software development to the Agile framework. There are several benefits of Agile software development over traditional methods. Some of the benefits are it can handle the changing requirements flexibly, it is a people centric development method where customer interaction is preferred over processes and tools, customer collaboration is preferred over contract negotiation and working process is preferred over following a plan [3,4,5,6].
+
+
+III. RESEARCH QUESTIONS
+RQ 1 – Can game-based teaching happen in a classroom environment?
+RQ 2 – Can students understand and apply the concepts taught through games to solve real world problems.
+
+
+IV. TEACHING METHODOLOGY
+The pedagogy used in teaching this class was a unique combination of using games and Agile principles. There are four games discussed in this paper namely; BallPoint, Wake- Up, Lego, and 8-Minute Sprint, and five activities namely; most productive Team, lightening talks, midterm exercise, discussion board and final presentation. The Agile principles that the instructor emphasized in teaching pedagogy were customer satisfaction, frequent change in requirements, face- to-face communications, and delivering working software frequently.
+To implement customer satisfaction into the classroom setting, first the instructor treated students as customers. The instructor collected formal and informal feedback from students throughout the course. One was informal anonymous written feedback at the end of the class and the other was formal anonymous written feedback that was collected at the end of the semester. Verbal feedback was encouraged frequently from each student at several points in time during the semester (including before, during, and after class as well as during office hours). The instructor made relevant changes based on the feedback. Certain changes were not technically possible like removing the assignment from the discussion board. The instructor thought that discussing ideas using the discussion board would help students develop their critical thinking skills at their own pace. Also, the discussion board helped shy students to participate. The informal and formal feedbacks are summarized later in Section V. Next, the instructor was treated as a customer by students who were role-playing as employees for an imaginary company. This was implemented via games and their projects.
+The concept of delivering “working software frequently” was implemented by dividing the students into teams of four or less and each team worked on a software project they wanted to develop. Each team had to present a working feature every week. Hence, their “sprints” were restricted to one week. They received credit depending on the weeks’ performance. They had to demonstrate the working feature, document it, and present that weeks’ work in class or via video. If time did not permit for presentation in class, students made a multimedia presentation and uploaded it as an unlisted YouTube video.
+The aim of the Agile software development course was to inculcate Agile understanding in students. There were different activities that were carried out for understanding Agile framework, including a midterm exam for students to use Agile manifestos in teaching their hobbies, board games to understand the concept of Agile framework, and a term project to develop a software product using any Agile framework. Several games were played in class during the semester. The list of activities and games are listed in Table I.
+
+A. BallPointGame
+BallPoint [13] game was played to introduce Scrum, and its terminologies. This game helped students to understand the importance of delivering working software frequently, team building, and face-to-face communication. It aimed to teach important concepts of velocity and estimation in Scrum. During this game, the whole class played as one team. Each student had to pass the ball. Every student in the class had to touch the ball before the round ended. When a ball was passed, it had to have some airtime. The student that started passing the ball had to get the ball at the end of each round and drop it into a basket. The ball could not be passed to their immediate neighbors. There was one minute for each iteration and there were five iterations. Before each iteration, an estimate had to be specified (how many balls can be passed in an iteration?). At the end of each iteration, students had two minutes of retrospective discussion. While passing the ball if it was dropped, that was considered as a bug and the ball had to start all over again. The results of ballpoint game are presented in table II.
+
+B. LegoGame
+Lego® were used to play this game. The students were divided in groups of five. Each team was provided with a Lego puzzle set. Students had to create a truck whose requirements were defined by the customer (professor). This had to be done in three sprints – each of one minute. Before every sprint, the team carried out a sprint planning meeting. Small parts of the truck were delivered to the customer at the end of each iteration. The customer added and/or removed features of the truck after every iteration. After each sprint, there were sprint reviews with the team and a sprint retrospective with the team and the customer. This game focused on sprint planning, execution, delivery, and customer satisfaction. It taught the importance of clear communication between the customer and the team.
+
+C. Wake-up Game
+The wakeup game was played to introduce user stories and identifying the core features of a product. This game was played using sticky notes. Students were asked to write the activities that they performed between the wake-up alarm and the time they stepped out of the door to come to school. They had to presume that they had their class at eight in the morning. Each activity was written on a sticky note (different colored sticky notes were provided to the students). Initially, students had to write their own activities. Then, they were divided into teams of five members. Here students were asked to group similar activities together and give a title for each activity group. These were posted on a poster board. They then had to draw lines on the board to separate the activities that had to be completed before going to the next activity. Students were able to identify the use of Kano [14] a concept of basic, performance, and delight. The next scenario that the students were given was - “You have your mid-term exam and your alarm did not ring”. They now had to identify the activities that were mandatory to perform when such a situation occurred. This helped students to identify the core activities.
+
+D. 8 Minute Sprint Game to Develop a Retail Calculator
+The game involved developing a retail calculator using the iterative and incremental process. It involved splitting the problem into eight sprints of eight minutes each, delivering a feature after each iteration. Students were divided in groups of three. The specifications of the calculator were given. Each team was supposed to have at least one business analyst, one programmer, and one tester. The teams had to write user stories for this task and slice them accordingly. The slices were supposed to be sliced in such a way that they are achievable in eight minutes. At the end of each sprint each team had to display their product. The criteria were each sprint should add some value to the customer. Then at the end of three sprints, each team had to display the value chart on the white board. This chart was plotted with time as the x-axis and the value of the product as the y-axis. Students learned the process of slicing the user story to achievable slices, understanding planning, the sprint goals, and about customer satisfaction. The coding game included sprint retrospective and sprint planning. From this activity students understood that it is inevitable that requirements change, and how change can be dealt with using Agile manifestos.
+
+E. Midterm Exam
+The midterm tested the students’ understanding of Agile manifestos. It evaluated students’ creativity, conceptual thinking, and critical thinking. Students were required to use Agile manifestos to teach one of their hobbies or any activity they enjoyed doing. They submitted an article of a minimum of five pages of their activity using Agile manifestos. Students used various Agile methodologies and some also used a combination of two methodologies.
+
+F. Most Productive Teams Exercise
+Students were asked to write an assignment on the most productive team that they worked with in the past. They had to write about the best and the worst thing that happened and a lesson that they learned while working with that team. The focus of this activity was to introduce the students to team dynamics, organizational culture, trust, and transparency.
+
+G. Lightning Talks
+In this activity, the students were asked to present on an Agile topic of their choice from a list. They were given five minutes to present. The list included topics like acceptance testing, test driven development, and pair programming. This activity helped students to understand a topic and present it to the class with examples. The PowerPoint presentation was timed and set to automatically scroll. This also helped students to time their work.
+
+H. Discussion Board
+The discussion board had questions which helped students with critical thinking about Agile. They were asked to participate by posting at least thrice a week. The timestamp was monitored so that students did not try to get the discussion done in one sitting. Critical questions including “Is Agile useful for developing high security software?” were asked.
+
+I. The Final Presentation
+At the beginning of the semester, students were asked to develop any software in groups of their choice. They were divided into three groups with 5 members in each team. Every week they had to deliver working software that would add value to the client. At the end of the semester, they integrated each week’s features into a whole project. This activity was designed to help students understand how Agile is implemented in the software industry.
+Students used different methodologies to implement their projects. Some teams also used a combination of methodologies. This helped them learn the concept of daily stand up meetings, test driven development, and how the only measure of progress in Agile is creating functional software. They saw how Agile supports documentation and the concept of “no documentation in agile” is incorrect. Apart from these important concepts, they learned that Agile is a people’s method.
+
+
+V. EVALUATION AND QUALITATIVE MEASURES
+There were two informal feedback surveys conducted for a class of 14 students. The first survey was conducted mid- semester and the other was conducted after course completion. Since the mid-semester feedback was optional, 11 students participated. All of them had positive comments on the course. Students mentioned that games were helping them to remember the concepts that were taught in class. Most students easily learned Agile concepts through games, and even the ones who had difficulty grasping the concepts at first ended up finding the games valuable. One student said, “the different set up took a little while to get the hang of due to constant work but overall the class is really helping.” Another student mentioned – “the class was fun because even if I forget something in the future about Agile, I can always reflect back to how the games were played and remember stuff.” Another feedback survey was taken after the completion of the course in which seven students participated. There were five questions in this questionnaire: What did you like about the Agile Software Development course? What did you NOT like about the Agile Software Development course? What are the concepts from this course that you will retain for life? How will you implement Agile in your working environment? Mention one takeaway from the Agile Software Development course. Table 3 summarizes the feedback received on these questions.
+End of the semester course evaluation emphasized that the students enjoyed the class. One of the questions asked during evaluation was: “Describe the strengths of this instructor in this course using specific examples.” Here are some of the comments from the students: the instructor “Provide[d] clear understanding of the concepts through practical ways,” “allowed and encouraged class participation,” “related every topic to real world scenarios which helped us understand the concept clearly,” and “the main strength of this instructor was that she explained to us clearly on all the classes and units.”
+
+
+VI. DISCUSSIONS
+The answer to the research questions are as follows:
+RQ1 – Can game-based teaching happen in a classroom?
+Game-based learning helped the students to be engaged. They came prepared to class with the theory so they could participate in class. They were eager to attend the class. The classroom did not look or feel like a traditional classroom. Students were ready to team up for the game which means they enjoyed it and had no problems working in teams.
+The following comments from students answers RQ1:
+    Allows and encourages class participation. Relates every topic to real world scenarios which helps understand the concept clearly.
+
+    The main strength of this class was, the professor had explained to us clearly on all the classes and units clearly and made us understand
+
+    Great knowledge of the course. Examples helped us with tricky parts
+
+    The instructor has very clear knowledge on the course. Instructor had organized many games according to the topic which made concepts very easy to understand.
+
+    Encourages class participation  Encourages class participation
+Hence, game-based teaching can happen in a classroom. It helps students to be motivated and helps them understand the concepts and skills better than the traditional way of teaching.
+RQ2 – Can students understand and apply the concepts taught through games to solve real world problems?
+Students were asked questions in class related to the concepts and they were prepared to answer. Students were able to relate the concepts with real world problems through their final project and lighting talks. Fig 1. Shows the performance of the class in their writing project and game- based projects.
+Fig 1 shows the scores of students in both the writing- based and the game-based projects. The x axis represents the number of students (31) and the y axis represents the points received by each student. 21 students performed better in the game-based assignments over writing assignments. 10 students performed better in writing assignment than game- based assignment. This study indicates that both writing-
+based and game-based learning are effective. Teaching should be a combination of various learning aids.
+The feedback from students showed that they enjoyed the course and would use the concepts taught through games to solve real world problems such as:
+    The variety of exercises and learning modes helped to apply for practical application
+
+    The games conducted in the class were highly relevant to the learning methodologies in the syllabus, which gave them a clear understanding about the course and its application.
+
+    Thank you for the support in the class and making me learn the course subject. It will help me a lot when I move out of the university and into the IT world.
+
+
+
+
+TABLE I. CLASS ACTIVITIES AND THE AGILE TERMS USED TO EXPLAIN VIA THAT GAME
+ Game Name
+Ballpoint game
+Worked in most productive team exercise
+Lego game
+8-minute sprint game
+Walk up game
+Lightening talks
+Midterm Discussion board
+Final presentation
+Agile Terminology
+Scrum, estimation, scrum retrospective, sprint review meeting and bug fixes
+Team dynamic, team work, trust and transparency
+Customer satisfaction, sprint review, sprint retrospective, sprint planning
+User story slicing, time management, customer satisfaction, test driven development
+User story writing, user story grouping, user story importance
+Students presented an agile process of their choice in five minutes. Ex – Scrum, XP, Lean, Kanban Hobbies using Agile Manifesto
+Questions or discussions. Ex - Is agile suitable for developing high security software?
+Presentation explaining team project and related sprints, agile methodology used, burn down charts, burn up charts, testing of applications, daily stand up meetings
+
+
+The games and activities are discussed in detail below.
+
+
+
+TABLE II. RESULTS OF BALLPOINT GAME SHOWING IMPROVEMENT
+
+ Iterations Time (in minutes)
+1 2
+2 2
+3 2
+4166 5 1 20 9 6 1 20 12 7 0.5 20 9 8 0.5 20 16 9 0.5 20 20 10 -- -- --
+Number of balls
+ Estimated
+-- 5 810 10 10
+Actual
+
+
+
+TABLE III. THE FIVE SURVEY QUESTIONS
+ Questions
+What did you NOT like about the Agile Software Development course?
+What are the concepts that you will retain for life from this course?
+How will you implement Agile in your working environment?
+Mention one takeaway from the Agile Software Development course
+Recommended changes
+Types of assignments given, team work
+Kanban, Scrum, User stories
+By giving complete freedom to the team members, dividing work into sprints, by encouraging “people over process”
+Flexibility towards work, Kanban board, continuous development structure
+   What do you like about the Agile Software Development course?
+ Games that were played and the interactive learning process, team work, student involvement through games, learned new concepts with games
+  Thank you for the support in the class and making me learn the course subject. It will help me a lot when I move out of the university and into the IT world.
+VII. LESSONS LEARNED AND FUTURE IMPROVEMENTS
+The lessons that were learned are as follows: First, the assignment questions need to change. Although, most of the assignments were used from their textbook, students did not find them challenging. Second, the students did not like the discussion board (DB). They thought it was too much work in comparison to the credit they received. In the future, the points will be modified, and a FAQ will be given, so that students understand the benefits of the discussion board. FAQ is important because some students, after repetitive reminders, still tried to complete the DB’s requirement in one sitting. Third, the students did not do well in listing the working agreement. They had difficulties understanding the concept that a software team could be flexible.
+Spring 2019 was the first semester this course was offered for an 8-week session; hence 47% students found the course to be fast paced compared to students that had this course as a 16-week session. Students were used to a 16- week semester and maybe they were not prepared for the transition.
+

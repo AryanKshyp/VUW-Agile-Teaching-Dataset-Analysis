@@ -1,0 +1,248 @@
+A Lean and Devops Approach to Teach Lean Software Development
+
+Abstract
+
+This paper describes application of lean methodology in IT education in a context of an undergraduate course on “Lean Software Development” with a full devops pragmatics in mind. Strong connection between software development and delivery processes can be build on top of established lean practices. Which means that implementation of end-to-end automation by devops approach needs good understanding of lean principles and mindset. The course exposes students to the core concepts underneath lean development in software engineering, beyond myths and legends, emphasizing how it relates to the general principles of Lean Development.
+
+The principles behind Lean Management are crucial for the students, but often even among senior managers lean is confused with the application of some lean practices, which actually can be applied in any context even if they have been conceived inside a lean organization. So the goal of course is to understand the core of lean to the point of being able to understand its applicability in new software development environment. To achieve this goal, our paramount idea has been to get the students to “feel” what a lean approach is, therefore, we have decided to articulate the class in a series of activities that aim at bringing lean into the class.
+
+1 Introduction
+
+This paper describes application of agile and lean methodology in IT education in a context of an undergraduate course on “Lean Software Development” with a full devops pragmatics in mind. The course exposes students to the core concepts underneath lean development in software engineering, beyond myths and legends, emphasizing how it relates to the general principles of Lean Development. It discusses the different possible software processes, how they can be tailored, enacted, and measured. Strong connection between software development and delivery processes can be build on top of established lean practices. Which means that implementation of end-to-end automation by devops approach needs good understanding of lean principles and mindset [1].
+
+Understanding how the principles behind Lean Management is crucial for the students – too often even among senior managers lean is confused with the application of some lean practices, which actually can be applied in any context even if they have been conceived inside a lean organization. We have recently conducted a survey in the Innopolis Special Economic Zone, Russia, and we have found that about 40% of the companies who claim to be lean, are actually companies who have a traditional process in place, or even no process, and that have institutionalized or just planned to implement some specific practices usually present in lean environments.
+
+So the goal of course is to understand the core of lean to the point of being able to understand its applicability in new software development environment.
+
+To achieve this goal, our paramount idea has been to get the students to “feel” what a lean approach is, therefore, we have decided to articulate the class in a series of activities that aim at bringing lean into the class.
+
+In the course we emphase two reference principles of Lean Management introduced by Ohno [3] and widely described by Womack (alone and with co-authors) in his various books (1991, 1996, 1997) [4,5,6]:
+
+    (i)
+
+    Elimination of waste;
+    (ii)
+
+    Autonomation.
+
+Elimination of waste refers to the careful analysis of all activities surrounding the production or the delivery of the service under the analysis and the determination whether:
+
+    1.
+
+    They contribute to the goal, or
+    2.
+
+    They are required by the environment for norms, regulations.
+
+If an activity would not satisfy one of these two criteria, it would be eliminated, if needed, restructuring the remaining tasks.
+
+Autonomation refers to the situation when the regulations (nomos in Greek are the regulations) are applied automatically, without any specific action or control to start them; it is what Janes and Succi (2014) [2] call “endogenous control.”
+
+Altogether, we have decided to articulate the course in a series of activities that try to be lean in themselves, such as:
+
+    Paramount individual “grand challenges”
+
+    Standard frontal lectures based on the textbook [2]
+
+    Individual briefings
+
+    Skype meetings with experts
+
+    Immediate grading
+
+    Frequent, formalized students feedback
+
+    Meeting with students to assess the evolution of the course.
+
+In this chapter, after some remarks on the overall architecture of the course (Sect. 2) we cover such activities. In Sects. 3, 4, 5, 6 and 7 we present methods applied in the course and discuss corresponding activities, from lecturing to learning by giving a talk and from immediate correcting and grading of student works to participation in Skype meetings with experts. The description of each part of the course is supplemented with an emphasis on our idea of using lean to explain lean concepts. Sample exercises are provided in Appendix. In Sect. 9 we summarize our approach, the outcomes of the course, and we draw the lines for our future research.
+
+2 General Approach for the Course
+
+As mentioned, the idea of the course is to teach students Lean Software Development using also a Lean approach, so to give them an even deeper understanding of the subject, which often get overseen, as it is evident in a research recently performed by the authors. In fact, our recent research in software companies has identified such discrepancies in software industry. A significant fraction of software companies claims that they are using Agile methodology while they do not implement it – we call them Quasi Agile. In practice, such companies become indistinguishable from those implementing “Waterfall” model.
+
+Indeed, to know what is Lean and to apply it are two different things. Thus, in the course we teach students that following Lean approach implies ubiquitous application of core principles. The expected outcome of the course is getting students to think and act in a Lean manner. In our opinion, this outcome can be achieved by doing things according to Lean approach, rather just listening or reading about Lean. For instance, when students are applying Lean approach in various domains during the course, the organization and form of their learning activities in such exercises should be aligned with Lean as well. Otherwise, not only a significant number of students find many contradictions between the subject and the way of teaching, but the students might just miss the core idea of the course – a risk that is well evident also by simply analysing the status of the industry.
+
+We have already mentioned that our two core reference principles that we wanted to apply to the class are:
+
+    (i)
+
+    Elimination of waste;
+    (ii)
+
+    Autonomation.
+
+We have now to understand what they mean in an educational context.
+
+The elimination of waste appears the easier principle to implement, which taken individually may look trivial, but properly contextualized and rationalized may help students perceiving the deepness of the issue. Referring to elimination of waste, we can consider a simple set of concepts and example that can help the students to perceive the matter at stake:
+
+    Make the best possible use of the time in class;
+
+    Develop and give assignments in the most productive way;
+
+    Eliminate useless administrative burdens on the side of both students and instructor.
+
+Autonomation has a broader and deeper implication. In a sense it should be the core of any educational endavour, because we would like every student to understand her/himself the progress s/he is making in her/his education, moreover, we would like any student to be the main actor of the education endeavour, the real protagonist of it. This may translate in the following course of action:
+
+    Providing immediately the grading, even exposing to the risk of some lack of precision, but so there is the possibility of an immediate feedback
+
+    Sharing assignments, so students can compare their solutions and grading with someone elses’.
+
+These two concepts together lead to the development of the reference educational activities that have guided the development of the course, namely:
+
+    Reading and watching (if video) home assignments regularly, to reason on the content of the course.
+
+    Grand challenges reports and presentations, to empirically focus on the application of lean approaches to non traditional organisational context in a “pair study work”, and report to the rest of the class in oral and written forms.
+
+    Briefings reports, in which students study a new subject in software engineering, reviewing an assigned paper, preparing a presentation on it, then giving a presentation to the class.
+
+    Class participation and tests, to enrich the discussion with of insights, relevant experiences, critical questions, and analysis of the material.
+
+Students need minimal background to follow the course. The course can be delivered even to the first-year students with minimum knowledge of programming. In the following sections we present how the principles work in the context of concrete elements of the course.
+
+3 Frontal Lectures
+
+Frontal lectures are guided by the course instructor and in most cases the lectures are highly informal and experimental. Students are asked to participate intensively, give their presentations, and also, sometimes, take a leading role in the discussion, applying the ideas and explaining each other the subject, rather than by listening to a frontal explanation.
+
+The topics of the frontal lectures included:
+
+    Software metrics and non invasive measurement
+
+    Taylorism, Fordism, and Lean Thinking
+
+    Lean in Software Engineering
+
+    Agile Methods
+
+    Issues in Agile, the dark side of agile
+
+    Toward Lean Software Development
+
+    GQM+ and Experience Factory.
+
+In general, the classes are organised as follows:
+
+    The first 75 min are cross-reviews of previous lectures and presentations by the instructor;
+
+    The second 75 min are composed by:
+
+        A quiz taken online and graded as a component of the final grade (see Sect. 4);
+
+        A presentation by a guest lecturer or from online videos (see Sects. 5 and 6);
+
+        A personal review of the progress of the grand challenges (see Sect. 7);
+
+        A final reflection on what has been learnt in the class.
+
+Needless to mention, any distraction is eliminated from the lecture, so cell phones are not allowed in any open place in the class for everyone, including the instructor, and laptops are used exclusively when there is an activity requiring them.
+
+Already here we notice the presence of autonomation and of elimination of waste:
+
+    (i)
+
+    Elimination of waste: by the elimination of distraction of cell phones and laptop, by the elimination of wait for grading and feedback
+    (ii)
+
+    Autonomation: by the oral recap of the lecturer at the beginning of the class, the automatically graded quiz, also at the beginning of the class, by the personal review of the grand challenges, and by the final reflection at the end of the class.
+
+4 Immediate Collecting Corrections and Grading
+
+The key point of any efficient learning activity is an immediate feedback. In courses such Lean Software Development this is of high demand, because many parts of the course could be considered as “fuzzy”.
+
+In such situation students may be confused about what is correct and what is not. Thus, activity related to assignments immediate corrections and grading are crucial. During each class assignment of the course students use Learning management system (Moodle) to upload their solutions. After that the instructor immediately started grading and the results of the grading were immediately available to students during the same class.
+
+However, this is not the main reason to perform immediate grading. Rather, not letting any useless time to pass between the submission of an assignment or the performance of a task and its grading relates to the concept of elimination of waste and the positive impact it has on the overall organization. So, while we perform grading immediately, we encourage students to appreciate its value, the one discussed at the beginning of this paragraph, and then we clarify how we see it connected to the paramount principle of elimination of waste, along the line of the principles that are inspiring this course.
+5 Briefings
+
+Briefings are intended to broad the understanding of the subject, reading and presenting work related to lean software development. Particular emphasis is on empirical research, which is also one of the key tenet of lean, and on historical work that show the roots of existing technologies, explaining how they came into existence, and the reasons for specific constraints on them. During the briefings students:
+
+    Study a new subject by reviewing an assigned paper,
+
+    Prepare a 5 min short presentation on it,
+
+    Give this presentation to the class, with 5 min of follow-up questions and answers.
+
+Explicit requirement for each briefing was linking it to what has already been explained in class, to the overall theory of software development.
+
+The deliverable of each briefing includes:
+
+    A one page abstract of a presentation,
+
+    At most 5 slides for a presentation.
+
+The page limit of abstract and presentation is hard. Students were not allowed to overcome it lowering the standard font size, putting too much text in one slide, enlarging the standard paper size, etc. This requirement helped students to focus on value first, and to distinguish value of the deliverable from the size of the deliverable’s text.
+
+Grading criteria for the briefings include:
+
+    Quality of the submitted documents and of the presentation,
+
+    Originality of the understanding,
+
+    Depth of the analysis and of the findings.
+
+    (i)
+
+    Elimination of waste: short presentations and reviews are very useful for extraction of only significant ideas and concepts. As we want students to focus only on key points, it is unnecessary to ask them provide a comprehensive review and long talk. In these activities students can clearly see that very little time is needed to extract and to deeply understand main content.
+    (ii)
+
+    Autonomation: endogenous control is enabled with 5 min of follow-up questions and answers. This activity is a natural conclusion for the presentation or talk. The Q/A session reveals the level of the analysis, and helps students learn which parts can be improved.
+
+6 Skype Meetings with Experts
+
+Each Skype meeting with expert was prepared in the following way. Students were asked to collect materials about an expert, find videos, papers, etc. Then a week before the meeting students were collectively collecting questions to the expert. This activity was done online in a shared document, edited by all students. The questions and topics of interest were available to an expert before the meeting. During the meeting an expert may answer questions from the very beginning, sometimes an expert made a short introductory talk. The list of experts includes: Dave Thomas, Alistair Cockburn, Ron Jeffrey, Kent Beck, Jim Highsmith, Robert Martin and others. The discussion between students and an expert was moderated by the course instructor. Each student was able to send a message with a question to instructor and then ask the question to an expert upon instructors request.
+
+This type of eduction activity again reveal our two main points:
+
+    (i)
+
+    Elimination of waste: topics and questions were collected and discussed before a meeting, thus eliminating of waste of time; collective editing reduces duplication, which is clearly leads to wastes in such activity;
+    (ii)
+
+    Autonomation: sessions were guided by a primary instructor who properly structured a discussion and helped students to focus on interaction with an expert and his answers rather than selecting which question should be the next.
+
+7 Grand Challenges
+
+Grand challenges consist in applying the concept of lean software development to other knowledge intensive industry fields and to report the results in class. Their purpose is to determine:
+
+    Goals of the industry under study,
+
+    Specific measurement criteria to determine the satisfaction of a goal,
+
+    Elaboration of strategies of such field,
+
+    Identification of what “lean” would mean for such industry,
+
+    Comparison with the techniques related to (lean) software development,
+
+    Identification of what:
+
+        The industry under study could learn from (lean) software development,
+
+        (Lean) software development could learn from the industry under study.
+
+Each grand challenge is undertaken by pairs or triples of students. The assignment of a grand challenge is in pull-style: students can create a group and pull assignment from the list of available grand challenges. To this end we use wiki as a platform for group edit and a FIFO policy for assigns. After a certain deadline grand challenges were assigned by instructor. Elimination of waste is clear here and it was appreciated by students.
+
+Each grand challenge required a review of the existing material (books, scientific papers, articles in press, websites, news, etc.) with all such material duly collected, analysed and cited. At the next step a grand challenge required an empirical investigation also involving interviews with key experts of the field, if needed.
+
+The outcome of grand challenge is a deliverable, which need to be supplied through the wiki as well as a comprehensive report of the grand challenge of at most 10 pages, and a presentation of at most 10 slides.
+
+Grading criteria for the grand challenges were clearly stated:
+
+    Quality of the submitted documents,
+
+    Originality of the findings,
+
+    Breadth of the sources used to perform the analysis,
+
+    Depth of the analysis and of the findings,
+
+    Clear evidence of the rational deduction of the findings from the (empirical) analysis.
+
+However, students were also informed that to get the best grade they were expected to apply the principles discussed in this course about handling uncertainty, irreversibility, wicked projects, etc.
+8 Connection Between the Lean Approach and the Devops Approach
+
+It was mentioned in Sect. 1 that implementation of end-to-end automation by devops approach needs good understanding of lean principles and mindset. Here we show the relations and differences between Lean and Devops approaches. Clearly, application of devops approach needs autonomation, which is one of two pillars of the Lean approach. Indeed, autonomation leads to automatic application of the regulations, when they needed, without any specific action or control. For instance, live grading strongly connects two processes: (i) development of the solution (by a student) and (ii) testing and accepting of the solution (with possibility of discussing and improving the solution). Thus, it shows to students a clear example of connection between development and operations (grading) as two stages of the same (learning) process. In this sense, the Lean approach provides a key to understand main idea behind the Devops approach.
+9 Discussion
+
+In this paper we have discussed the principles that have inspired our approach to teach lean software development, which are centered on the idea of having student experiencing a lean organization while learning lean software production. We have aimed at providing ways to help students to define a suitable lean process for a new organization, a process to introduce and institutionalize it, and an approach to measure the outcome of such introduction and institutionalization. Moreover, we have put a significant effort in teaching students how to identify what “lean” would mean for a given organization, with specific attention to software development.
+
+This work it is at start, we are now progressing our experimentation and we hope to find other institutions interested in replicating our approach. We are ready to share our entire experience to any interested instructor.

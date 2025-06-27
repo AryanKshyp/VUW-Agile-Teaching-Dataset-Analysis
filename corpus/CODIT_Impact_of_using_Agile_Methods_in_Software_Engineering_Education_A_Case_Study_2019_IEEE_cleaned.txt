@@ -1,0 +1,134 @@
+Impact of using Agile Methods in Software Engineering Education: A Case Study
+
+Abstract— Agile methods have proved their applicability and efficiency in software development. Advantages of using agile methods include short development life-cycle times; multidisciplinary development teams; continuous evolution, immediacy, and reduced cost of change. Although some universities started including these methods in their curriculum, courses on practical practices for Agile methods at the undergraduate and graduate levels are still few. In this paper, an investigation is conducted to evaluate the impact of teaching practical agile methods in web engineering course on the learning outcomes of the software engineering students. This case study started by conducting a real-life business simulation inside a computer lab. Then, a questionnaire was prepared and disseminated in order to obtain the feedback on the students’ perception on this teaching method. Afterward, the questionnaire results were analyzed and assessments for students were done to find out the impact of this educational technique on students’ performance.
+
+Keywords: Web Engineering, Software Engineering Education, Agile methods, Scrum, XP.
+
+
+I. INTRODUCTION
+Nowadays web applications have become more and more vital, and web presence has been essential for business and real industry marketing environments. It is highly expected that the majority of information systems to be developed in future will be web-based systems [1, 5]. These industry and business trends should be reflected on future generations of software engineers; therefore, it is required to bridge the gap between the students’ education and the real practical experiences in the industry. Software engineering students in universities or colleges have to be prepared for real challenges they may face in developing web applications, as many other engineering disciplines [18, 19].
+Web application encompasses everything from a simple Web page to a comprehensive website [6]. Web engineering is a framework for building industry-quality web applications. Quick delivery of good quality working web application is
+crucial in the current market [3, 6]. Agile approaches have proved their applicability and efficiency for this class of applications due to the challenges associated with Web-based applications development such as: short development life-cycle times; small multidisciplinary development teams; continuous evolution, immediacy, and cost of change [7, 10, 11].
+Many agile approaches have been extensively considered in real web industry but not within the university education system [8]. Therefore, the author believes that agile approaches needed to be investigated according to specific educational requirements to positively influence the teaching process. Agile approach in university courses could enhance constructive communication skills, generate relationships among students, stimulate active team participation, and motivation learning. It should also adopt rapid software development, with high application quality, and easily changing requirements management [8, 9].
+This paper presents a case study where two popular Agile software development approaches (Scrum and XP) have been considered in the web engineering course. The objective of the study is to address the following concerns of software engineering educators: is it possible for university students to learn and practice the agile development methodologies? Whether agile methodologies really generate good quality working web applications in a short time with university student’s teams? What is student perception of the methodology used, and does this approach of education motivate the students during their education? And most importantly, what is the impact of using agile methods in software engineering education?
+In order to answer the aforementioned research questions, a real-life business simulation was conducted inside a computer lab within a web engineering course student offered at Al-Zahra College for Women. A special arrangement was implemented, and an in-class project was given to the participants. Questionnaire, assessment and direct discussion were conducted in order to evaluate the impact of involving agile development methodologies in software engineering education.
+The rest of the paper is organized as follows: section 2 discusses the importance of agile development methods in industry. Web engineering course overview given in Al-Zahra College is presented in section 3. The research methodology used in this research is described in section 4. Section 5 discusses the impact of Agile methodology in education sector and section 6 presents the main outcomes of this research study. Section 8 concludes the papers.
+
+
+III. WEB ENGINEERING COURSE OVERVIEW
+Web Engineering is a mandatory course for Software Engineering specialization in Al-Zahra College for Women. Senior students are expected to study this course who have  programming skills and experience in developing web applications. This course introduces students to verity of concepts, methods and techniques used in web-based system development. Students should learn in this course the Web Engineering process framework activities and actions needed to create web applications, and how to use them in a collaborative environment while properly utilizing web engineering methodologies.
+The course includes a project to use the Agile educated technologies and to create a robust web application, they will be asked to apply analysis principles and methods applicable to web engineering, and then to implement rabidly web application project by simulation a modern real-world environment. This would help students to distinguish between various developments processes, and identify the possible drawbacks and problems. The project takes place over the 12 weeks of course term, includes multiple releases, and students should work in teams of Three members.
+The students will be requested to apply two agile methods; namely; Scrum and Extreme Programming as development framework process. At the end of the course, questionnaire distributed to the participants, analysis for questionnaire responds will be completed, assessment for students will be done, and discussion will be conducted to collect feedback. The course has the following main objectives and outcomes:
+1) Teach students how to apply software engineering principles, skills and strategies for Web application development.
+2) Apply analysis principles and methods appropriate for web engineering
+3) Rapid development for web application through simulating a real-world environment.
+4) Distinguish between various development approaches, and identify the possible benefits and drawbacks for each.
+Web engineering process [6] involves set of activities that are applicable to all Web application projects, the activities are iterated and repeated for each increment. As shown in Fig.1 the activities are: communication, planning, modeling, construction and deployment. Each activity is populated by a set of actions; and each action contains a collection of related tasks that produces a work product.
+Communication activity-Fig1- includes requirement gathering through interaction and collaboration with customers. In planning activity web engineers create a work plan. Modeling encompasses creation analysis and design models. Generation for code and testing are done by constructions. Deployment includes delivering the webApp increments to customer who would evaluate it and provide feedback.
+
+
+IV. RESEARCH METHODOLOGY
+Inductive research approach has been adopted in this study, starting from collecting data and observations of individual cases to generate broad general ideas and theories. The study involves the following phases:
+1. Conducting Real-life business simulation inside computer lab in two stages.
+1.1 Stage one: teams of web engineering students
+assigned to develop web application within tight deadline, the members of these teams have learned the basics of agile development methodologies, each team follows either Scrum or XP, each team worked separately in building the required web application following the specific agile methodology.
+1.2 Stage two: feedback and a new requirements will be emerged, developments teams have to incorporate the new requirements in their projects.
+2. Preparing and disseminating a questionnaire to participants in order to comprehend students’ perceptions and feedback about the applied approaches after the completion of the development. The purpose of the questionnaire is to gain clearer insight about the students’ perceptions about methodologies used, teamwork, their motivation, and
+their attitude towards changing requirements.
+3. Analysing the participants responds to reach deeper and wider understanding which would eventually bring a positive impact on Web engineering undergraduate program, in order to prepare students for exciting career and successful articulation in this
+field.
+4. Assessment for students is done, in order to evaluate
+the efficiency of followed educational technique compared with traditional one for Web Engineering course, and how it affects positively on students results.
+
+
+V. IMPACT OF AGILE METHODS IN EDUCATION
+Teaching Software Engineering has never been a straightforward process, traditional teaching and educational methods have certain limitations for interactive courses such as programming or software development. After years of exploring industry requirements, it has been notices that agile approach possesses significant characteristics and practices students should experience in their educational progress.
+Agile practices seem to be appropriate for software development done in universities and colleges as course or final year graduation projects. Students in programming courses develop programs for a specific problems; besides, in most university’s projects a good quality working software that is delivered in tight time is a must. In these scenarios, agile practices help by focusing on rapid programming of software that meets the specified requirements.
+Integrating agile methodology into academic will help to better understand the importance and role(s) of agile concepts and practices [15]. In reality, students working together with good communication and interaction can operate at higher levels than when they use their individual talents, Agile project teams focus on increasing both individual competencies and collaboration levels.
+Some studies observe Agile practices used in education and explore its impact to learning, the results indicate positive influence on students’ skill specially on students’ with weak programming skills. Moreover, it has a big effect on average variance between their project mates’ skills. In addition, it positively influences on higher marks for coding and final evaluations of their projects on average [16].
+Agility is a broad concept that needs to be delimited and tuned according to specific educational requirements to positively influence the teaching process. An agile approach should foster rapid software development, promote application quality, and make changing requirements easy to manage. It should also stimulate communication, work organization, active team participation, good relationships among students, and motivation for present and future learning.
+Two teams of students assigned to develop same web application within tight deadline, the members of these teams have the basic web application programming skills, and learned the basics of Agile methodologies, each team follows either Scrum or XP, the teams worked separately in building the required web application following the specific Agile methodology. After delivering some increments, the students received a new requirements and they have to incorporate them in their projects.
+
+A. Questionnaire and Open Discussion
+Questionnaire is prepared in order to gain clearer insight into the students’ perceptions about methodologies used, teamwork, motivation, and their attitude towards changing requirements. The students’ responds have been collected, and analyzed as shown in Table1 and Table 2.
+After analyzing the results of the questionnaire; it has been notices that participant students in both teams (XP and Scrum) were motivated during the course. Hence, applying agile approaches practically in Web Engineering course positively influenced the teaching process. Through enhancing constructive communication skills, generating relationships among students, stimulating active team participation, and motivating self-learning. It could also adopt rapid software development, with high application quality, and easily changing requirements management. This is reflected on their big jump in understanding for Agile approaches that are applicable for Web Engineering and Web Applications, student could have better understanding for the approaches and principles; around Eighty Two percent and Eighty percent better understanding for XP and Scrum approaches respectively.
+Both teams have positive feedbacks regarding the communication between team members, organization to work and the methodology efficiency, which helped to find out bugs easily, and work with high degree of autonomy. Most XP team members felt it was enjoyable learning way, while around Half of scrum members have enjoyed.
+All participants agreed that this way of educating for such Software Engineering courses enhance their creativity, innovation, facilitate the communication, help organization to work, and efficient for software application development. However, XP team has higher satisfaction average which is around Seventy Eight, while Scrum team satisfaction was around Seventy Seven.
+
+B. Assessment and evaluation for students
+Assessment has been prepared to measure the improvement in student performance; the assessment done for two classes of students; participants and non-participants students. Fig. 2 shows the assessment results for class of students who did not participate in the simulation project, while Figure 3 shows the results of participants. Non-participants grades average was 83% while the grades average for participants was 85%;
+The standard deviation for non-participants was 15.4, while for participant was 8.9. It could be concluded that the proposed teaching method could increase student grades, and enhance the student understanding for such software engineering courses. Moreover, it could minimize the difference between students level of understanding.
+
+
+VI. CONCLUSIONS
+The impact using agile methods in software engineering education curricular was investigated in this paper. A case study was conducted in web engineering course where a new teaching approach was proposed which involves educating agile development methods practically. The aim of the new approach is to bridge the gap between the students’ education and the real practical experiences in the industry through actively engaging students in using different agile development methods.
+The study examined and evaluated two popular agile software development approaches (Scrum and XP) form educational perspective. In this case study, two students’ teams were assigned to develop same web application where one group applied XP, and the other group used SCRUM. Results showed that the students working together with good communication and interaction can operate at higher levels than when they use their individual talents. Further, it was revealed that both XP and SCRUM teams were efficient and can produce good quality software within tight deadline. This implies that the adopted approach can be implemented easily with undergraduate students. It was found that both approaches are enjoyable, enhance the motivation, facilitate the communication, and help organizing the work for web application development.
+After analyzing a questionnaire and the assessment results, and based on the investigator’s observations, it is concluded that using Agile practices in educational framework would positively influence the teaching process. Agile approach in undergraduate software engineering courses could stimulate communication, good relationships among students, active team participation, and motivation for present and future learning. It should also foster rapid software development, promote application quality, and make changing requirements easy to manage. The participants had a great preference among other students, and could more realize the agile principles, and how to deal with uncertain environment where evolution and changing requirements inevitably required.
+
+
+
+TABLE I: XP RESULTS Criteria
+1. XP Methodology understanding
+2. Team members motivation
+3. Better Communication among members
+4. Enjoyable way
+5. Better Organization to work
+6. Methodology’s general efficiency
+Overall Satisfaction
+TABLE II: SCRUM RESULTS Criteria
+1. Scrum Methodology understanding
+2. Team members motivation
+3. Better Communication among members
+4. Enjoyable way
+5. Better Organization to work
+6. Methodology’s general efficiency
+Overall Satisfaction
+Agree 82%
+85% 86.6%
+70%
+82% 66.3%
+Agree 80%
+80% 90%
+56.6% 73.3% 83.3%
+Disagree 18%
+15% 13.4%
+30%
+18% 33.7%
+77.98
+Disagree 20%
+20% 10%
+43.4% 26.7% 16.7%
+76.64
+ 60% 40% 20%
+0% 0%
+0-49
+17%
+90-100
+-20%
+Non-participants Students’ grades
+0%
+50-59
+50%
+60-69
+0%
+70-79
+33%
+80-89
+Fig.1. Evaluation for none-participants
+ 60% 40% 20%
+0% 0%
+0-49
+50%
+90-100
+-20%
+Participant Students’ grades
+0%
+50-59
+0%
+60-69
+17%
+70-79
+33%
+80-89
+
+
